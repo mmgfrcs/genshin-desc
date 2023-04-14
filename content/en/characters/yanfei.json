@@ -1,0 +1,194 @@
+{
+  "name": "Yanfei",
+  "element": "pyro",
+  "icon": "/img/yanfei/icon-big.webp",
+  "weapon": "CATALYST",
+  "rarity": 4,
+  "portrait": "/img/yanfei/portrait.webp",
+  "id": "yanfei",
+  "talents": [
+    {
+      "name": "Seal of Approval",
+      "icon": "/img/yanfei/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Shoots fireballs that deal up to three counts of Pyro DMG. When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh. Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to the opponents after a short casting time. This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground."
+        }
+      ]
+    },
+    {
+      "name": "Signed Edict",
+      "icon": "/img/yanfei/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Summons blistering flames that deal AoE Pyro DMG."
+        },
+        {
+          "text": "If this attack hits an enemy, Yanfei is granted the maximum number of Scarlet Seals."
+        }
+      ]
+    },
+    {
+      "name": "Done Deal",
+      "icon": "/img/yanfei/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her."
+        },
+        {
+          "text": "Brilliance"
+        },
+        {
+          "text": "Perodically grants Yanfei a Scarlet Seal. Increases the DMG of her Charged Attacks. The Brilliance effect stops when Yanfei leaves the field or dies."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Proviso",
+      "icon": "/img/yanfei/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect."
+        }
+      ]
+    },
+    {
+      "name": "Blazing Eye",
+      "icon": "/img/yanfei/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK. This DMG counts as Charged Attack DMG."
+        }
+      ]
+    },
+    {
+      "name": "Encyclopedic Expertise",
+      "icon": "/img/yanfei/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Displays the location of nearby resources unique to Liyue on the mini-map."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "The Law Knows No Kindness",
+      "icon": "/img/yanfei/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Yanfei uses her Charged Attacks,each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release."
+        }
+      ]
+    },
+    {
+      "name": "Right of Final Interpretation",
+      "icon": "/img/yanfei/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases Yanfei's Charged Attack CRIT rate by 20% against enemies below 50% HP."
+        }
+      ]
+    },
+    {
+      "name": "Samadhi Fire-Forged",
+      "icon": "/img/yanfei/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Signed Edict by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Supreme Amnesty",
+      "icon": "/img/yanfei/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Done Deal is used:"
+        },
+        {
+          "text": "Creates a shield which absorbes upto 45% of Yanfei's Max HP for 15s. This shield absorbes Pyro DMG 250% more efficiently."
+        }
+      ]
+    },
+    {
+      "name": "Abiding Affidavit",
+      "icon": "/img/yanfei/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Done Deal by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Extra Clause",
+      "icon": "/img/yanfei/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases the maximum number of Scarlet Seals by 1."
+        }
+      ]
+    }
+  ]
+}

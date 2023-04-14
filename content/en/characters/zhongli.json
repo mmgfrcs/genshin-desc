@@ -1,0 +1,272 @@
+{
+  "name": "Zhongli",
+  "element": "geo",
+  "icon": "/img/zhongli/icon-big.webp",
+  "weapon": "POLEARM",
+  "rarity": 5,
+  "portrait": "/img/zhongli/portrait.webp",
+  "id": "zhongli",
+  "talents": [
+    {
+      "name": "Rain of Stone",
+      "icon": "/img/zhongli/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 6 consecutive spear strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Dominus Lapidis",
+      "icon": "/img/zhongli/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Press"
+        },
+        {
+          "text": "Commands the omnipresent power of earth to solidify into a Stone Stele, dealing AoE Geo DMG."
+        },
+        {
+          "text": "Additionally, the Stone Stele will resonate with other Geo Constructs in the vicinity, dealing Geo DMG to surrounding enemies."
+        },
+        {
+          "text": "The Stone Stele is considered a Geo Construct, and can both be climbed and used to block attacks. Only one may exist at any one time."
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "Causes nearby Geo energy to explode, causing the following effects:"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP, and absorbs Geo DMG 250% more effectively."
+        },
+        {
+          "text": "Causes AoE Geo DMG."
+        },
+        {
+          "text": "If there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Stone Stele"
+        },
+        {
+          "text": "When created, deals AoE Geo DMG."
+        },
+        {
+          "text": "Additionally, it will intermittently resonate with other nearby Geo constructs, dealing Geo DMG to nearby opponents."
+        },
+        {
+          "text": "The Stone Stele is considered a Geo construct that can both be climbed and used to block attacks."
+        },
+        {
+          "text": "Only one Stele created by Zhongli himself may initially exist at any one time."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Jade Shield"
+        },
+        {
+          "text": "Possesses 150% DMG Absorption against all Elemental and Physical DMG."
+        },
+        {
+          "text": "Characters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked."
+        }
+      ]
+    },
+    {
+      "name": "Planet Befall",
+      "icon": "/img/zhongli/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them."
+        },
+        {
+          "text": "Petrification"
+        },
+        {
+          "text": "Opponents affected by the Petrification status cannot move."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Resonant Waves",
+      "icon": "/img/zhongli/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the Jade Shield takes DMG, it will Fortify:"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Fortified characters have 5% increased Shield Strength."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Can stack up to 5 times, and lasts until the Jade Shield dissapears."
+        }
+      ]
+    },
+    {
+      "name": "Dominance of Earth",
+      "icon": "/img/zhongli/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Zhongli deals bonus DMG based on his Max HP:"
+        },
+        {
+          "text": "Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP."
+        },
+        {
+          "text": "Dominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP."
+        },
+        {
+          "text": "Planet Befall's DMG is increased by 33% of Max HP."
+        }
+      ]
+    },
+    {
+      "name": "Arcanum of Crystal",
+      "icon": "/img/zhongli/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Refunds 15% of the ores used when crafting Polearm-type weapons."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Rock, the Backbone of Earth",
+      "icon": "/img/zhongli/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases the maximum number of Stone Steles created by Dominus Lapidis that may exist simultaneously by 2."
+        }
+      ]
+    },
+    {
+      "name": "Stone, the Cradle of Jade",
+      "icon": "/img/zhongli/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Planet Befall grants nearby characters on the field a Jade Shield when it descends."
+        }
+      ]
+    },
+    {
+      "name": "Jade, Shimmering through Darkness",
+      "icon": "/img/zhongli/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Dominus Lapidis by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Topaz, Unbreakable and Fearless",
+      "icon": "/img/zhongli/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases Planet Befall's AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s."
+        }
+      ]
+    },
+    {
+      "name": "Lazuli, Herald of the Order",
+      "icon": "/img/zhongli/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Planet Befall by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Chrysos, Bounty of Dominator",
+      "icon": "/img/zhongli/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character."
+        },
+        {
+          "text": "A single instance of regeneration cannot exceed 8% of that character's Max HP."
+        }
+      ]
+    }
+  ]
+}

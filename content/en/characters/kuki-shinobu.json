@@ -1,0 +1,209 @@
+{
+  "name": "Kuki Shinobu",
+  "element": "electro",
+  "icon": "/img/kuki-shinobu/icon-big.webp",
+  "weapon": "SWORD",
+  "rarity": 4,
+  "portrait": "data:,",
+  "id": "kuki-shinobu",
+  "talents": [
+    {
+      "name": "Shinobu's Shadowsword",
+      "icon": "data:,",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 4 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Sanctifying Ring",
+      "icon": "data:,",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing Electro DMG to nearby opponents."
+        },
+        {
+          "text": "Grass Ring of Sanctification"
+        },
+        {
+          "text": "Follows your current active character around. Deals Electro DMG to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP."
+        },
+        {
+          "text": "The HP consumption from using this skill can only bring her to 20% HP."
+        }
+      ]
+    },
+    {
+      "name": "Gyoei Narukami Kariyama Rite",
+      "icon": "data:,",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous Electro DMG to opponents within its AoE based on Shinobu's Max HP."
+        },
+        {
+          "text": "If Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Breaking Free",
+      "icon": "data:,",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Shinobu's HP is not higher than 50%, her Healing Bonus is increased by 15%."
+        }
+      ]
+    },
+    {
+      "name": "Heart's Repose",
+      "icon": "data:,",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Sanctifying Ring's abilities will be boosted based on Shinobu's Elemental Mastery:"
+        },
+        {
+          "text": "·Healing amount will be increased by 75% of Elemental Mastery."
+        },
+        {
+          "text": "·DMG dealt is increased by 25% of Elemental Mastery."
+        }
+      ]
+    },
+    {
+      "name": "Protracted Prayers",
+      "icon": "data:,",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "To Cloister Compassion",
+      "icon": "data:,",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Gyoei Narukami Kariyama Rite's AoE is increased by 50%."
+        }
+      ]
+    },
+    {
+      "name": "To Forsake Fortune",
+      "icon": "data:,",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Grass Ring of Sanctification's duration is increased by 3s."
+        }
+      ]
+    },
+    {
+      "name": "To Sequester Sorrow",
+      "icon": "data:,",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Sanctifying Ring by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "To Sever Sealing",
+      "icon": "data:,",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the Normal, Charged, or Plunging Attacks of the character affected by Shinobu's Grass Ring of Sanctification hit opponents, a Thundergrass Mark will land on the opponent's position and deal AoE Electro DMG based on 9.7% of Shinobu's Max HP."
+        },
+        {
+          "text": "This effect can occur once every 5s."
+        }
+      ]
+    },
+    {
+      "name": "To Cease Courtesies",
+      "icon": "data:,",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Gyoei Narukami Kariyama Rite by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "To Ward Weakness",
+      "icon": "data:,",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Kuki Shinobu takes lethal DMG, this instance of DMG will not take her down. This effect will automatically trigger when her HP reaches 1 and will trigger once every 60s."
+        },
+        {
+          "text": "When Shinobu's HP drops below 25%, she will gain 150 Elemental Mastery for 15s. This effect will trigger once every 60s."
+        }
+      ]
+    }
+  ]
+}

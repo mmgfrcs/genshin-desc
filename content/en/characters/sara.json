@@ -1,0 +1,194 @@
+{
+  "name": "Kujou Sara",
+  "element": "electro",
+  "icon": "/img/sara/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 4,
+  "portrait": "/img/sara/portrait.webp",
+  "id": "sara",
+  "talents": [
+    {
+      "name": "Tengu Bowmanship",
+      "icon": "/img/sara/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 5 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": " Perform a more precise Aimed Shot with increased DMG. While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal Electro DMG. When in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Tengu Stormcall",
+      "icon": "/img/sara/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather. Gains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location."
+        },
+        {
+          "text": "Crowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing Electro DMG and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK."
+        },
+        {
+          "text": "The ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect."
+        }
+      ]
+    },
+    {
+      "name": "Subjugation: Koukou Sendou",
+      "icon": "/img/sara/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Casts down Tengu Juurai: Titanbreaker, dealing AoE Electro DMG. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing AoE Electro DMG."
+        },
+        {
+          "text": "Tengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall."
+        },
+        {
+          "text": "The ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Immovable Will",
+      "icon": "/img/sara/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "While in the Crowfeather Cover state provided by Tengu Stormcall, Aimed Shot charge times are decreased by 60%."
+        }
+      ]
+    },
+    {
+      "name": "Decorum",
+      "icon": "/img/sara/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s."
+        }
+      ]
+    },
+    {
+      "name": "Land Survey",
+      "icon": "/img/sara/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%"
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Crow's Eye",
+      "icon": "/img/sara/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Tengu Juurai grant characters ATK Bonuses or hits opponents, the CD of Tengu Stormcall is decreased by 1s."
+        },
+        {
+          "text": "This effect can be triggered once every 3s."
+        }
+      ]
+    },
+    {
+      "name": "Dark Wings",
+      "icon": "/img/sara/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Unleashing Tengu Stormcall will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG."
+        }
+      ]
+    },
+    {
+      "name": "The War Within",
+      "icon": "/img/sara/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Subjugation: Koukou Sendou by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Conclusive Proof",
+      "icon": "/img/sara/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The number of Tengu Juurai: Stormcluster released by Subjugation: Koukou Sendou is increased to 6."
+        }
+      ]
+    },
+    {
+      "name": "Spellsinger",
+      "icon": "/img/sara/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Tengu Stormcall by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Sin of Pride",
+      "icon": "/img/sara/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The Electro DMG of characters who have had their ATK increased by Tengu Juurai has its Crit DMG increased by 60%."
+        }
+      ]
+    }
+  ]
+}

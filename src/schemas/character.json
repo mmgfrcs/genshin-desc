@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Character": {
+      "additionalProperties": false,
+      "properties": {
+        "constellations": {
+          "items": {
+            "$ref": "#/definitions/CharacterConstellation"
+          },
+          "type": "array"
+        },
+        "element": {
+          "enum": [
+            "pyro",
+            "cryo",
+            "hydro",
+            "anemo",
+            "geo",
+            "dendro",
+            "electro"
+          ],
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "passives": {
+          "items": {
+            "$ref": "#/definitions/CharacterPassive"
+          },
+          "type": "array"
+        },
+        "portrait": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": "number",
+          "maximum": 5,
+          "minimum": 4
+        },
+        "talents": {
+          "items": {
+            "$ref": "#/definitions/CharacterTalent"
+          },
+          "type": "array"
+        },
+        "weapon": {
+          "enum": [
+            "BOW",
+            "SWORD",
+            "POLEARM",
+            "CLAYMORE",
+            "CATALYST"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "icon",
+        "portrait",
+        "rarity",
+        "element",
+        "weapon",
+        "talents",
+        "passives",
+        "constellations"
+      ],
+      "type": "object"
+    },
+    "CharacterConstellation": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "items": {
+            "$ref": "#/definitions/GenshinDescription"
+          },
+          "type": "array"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "level": {
+          "type": "number",
+          "maximum": 6,
+          "minimum": 1
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "level",
+        "icon",
+        "name",
+        "description"
+      ],
+      "type": "object"
+    },
+    "CharacterPassive": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "items": {
+            "$ref": "#/definitions/GenshinDescription"
+          },
+          "type": "array"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "asc1",
+            "asc2",
+            "utility",
+            "misc"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "icon",
+        "name",
+        "description"
+      ],
+      "type": "object"
+    },
+    "CharacterTalent": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "items": {
+            "$ref": "#/definitions/GenshinDescription"
+          },
+          "type": "array"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "images": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "normal",
+            "skill",
+            "burst",
+            "alt"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "icon",
+        "name",
+        "images",
+        "description"
+      ],
+      "type": "object"
+    },
+    "GenshinDescription": {
+      "additionalProperties": false,
+      "properties": {
+        "style": {
+          "const": "subtitle",
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "type": "object"
+    }
+  }
+}

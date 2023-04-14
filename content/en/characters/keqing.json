@@ -1,0 +1,224 @@
+{
+  "name": "Keqing",
+  "element": "electro",
+  "icon": "/img/keqing/icon-big.webp",
+  "weapon": "SWORD",
+  "rarity": 5,
+  "portrait": "/img/keqing/portrait.webp",
+  "id": "keqing",
+  "talents": [
+    {
+      "name": "Yunlai Swordsmanship",
+      "icon": "/img/keqing/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 5 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemeies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Stellar Restoration",
+      "icon": "/img/keqing/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Hurls a Lightning Stiletto that annihilates her enemies like the swift thunder."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When the Stiletto hits its target, it deals Electro DMG to enemies in a small AoE, and places a Stiletto Mark on the spot hit."
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "Hold to adjust the direction in which the Stiletto shall be thrown."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Stilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time."
+        },
+        {
+          "text": "Lightning Stiletto"
+        },
+        {
+          "text": "If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "If she uses Stellar Restoration again, she will blink to the location of the Mark and unleashed one slashing attack that deals AoE Electro DMG. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain."
+        },
+        {
+          "text": "If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing AoE Electro DMG."
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Starward Sword",
+      "icon": "/img/keqing/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Keqing unleashes the power of lightning, dealing Electro DMG in an AoE."
+        },
+        {
+          "text": "She then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby enemies simultaneous that deal multiple instance of Electro DMG. The final attack deals massive AoE Electro DMG."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Thundering Penance",
+      "icon": "/img/keqing/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Within 5s of recasting Stellar Restoration while a Lightning Stiletto is present, Keqing's Normal and Charged Attacks are converted to Electro DMG."
+        }
+      ]
+    },
+    {
+      "name": "Aristocratic Dignity",
+      "icon": "/img/keqing/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When casting Starward Sword, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Land's Overseer",
+      "icon": "/img/keqing/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Thundering Might",
+      "icon": "/img/keqing/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Recasting Stellar Restoration while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as AoE Electro DMG at the start point and terminus of her Blink."
+        }
+      ]
+    },
+    {
+      "name": "Keen Extraction",
+      "icon": "/img/keqing/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Keqing's Normal and Charged Attack's hit enemies affected by Electro, they have a 50% chance of producing an Elemental Particle. This effect can only occur once every 5s."
+        }
+      ]
+    },
+    {
+      "name": "Forseen Reformation",
+      "icon": "/img/keqing/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Starward Sword by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Attunement",
+      "icon": "/img/keqing/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "For 10s after Keqing triggers an Electro-related Elemental Reaction, her ATK is increased by 25%."
+        }
+      ]
+    },
+    {
+      "name": "Beckoning Stars",
+      "icon": "/img/keqing/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Stellar Restoration by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Tenacious Star",
+      "icon": "/img/keqing/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When initiating a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% Electro DMG Bonus for 8s. Effects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities."
+        }
+      ]
+    }
+  ]
+}

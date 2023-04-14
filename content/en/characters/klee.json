@@ -1,0 +1,206 @@
+{
+  "name": "Klee",
+  "element": "pyro",
+  "icon": "/img/klee/icon-big.webp",
+  "weapon": "CATALYST",
+  "rarity": 5,
+  "portrait": "/img/klee/portrait.webp",
+  "id": "klee",
+  "talents": [
+    {
+      "name": "Kaboom!",
+      "icon": "/img/klee/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina and deals Pyro DMG to enemies after a short casting time."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Pyro DMG upon impact with the ground."
+        }
+      ]
+    },
+    {
+      "name": "Jumpy Dumpty",
+      "icon": "/img/klee/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Jumpy Dumpty is tons of boom-bang-fun!"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce."
+        },
+        {
+          "text": "On the third bounce, the bomb splits into many mines."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The mines will explode upon contact with enemies, or after a short period of time, dealing AoE Pyro DMG."
+        },
+        {
+          "text": "Starts with 2 charges."
+        }
+      ]
+    },
+    {
+      "name": "Sparks 'n' Splash",
+      "icon": "/img/klee/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby enemies, dealing AoE Pyro DMG."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Pounding Surprise",
+      "icon": "/img/klee/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
+        }
+      ]
+    },
+    {
+      "name": "Sparkling Burst",
+      "icon": "/img/klee/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a Charged Attack results in a CRIT, all party members gain 2 Elemental Energy."
+        }
+      ]
+    },
+    {
+      "name": "All Of My Treasures!",
+      "icon": "/img/klee/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Displays the location of nearby resources unique to Mondstadt on the mini-map."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Chained Reaction",
+      "icon": "/img/klee/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Attacks and Skills have a certain chance to summon a spark that bombards enemies, dealing DMG equal to 120% of Sparks 'n' Splash's DMG."
+        }
+      ]
+    },
+    {
+      "name": "Explosive Frags",
+      "icon": "/img/klee/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Being hit by Jumpy Dumpty's mines decreases enemy DEF by 23% for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Exquisite Compound",
+      "icon": "/img/klee/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Jumpy Dumpty by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Sparkly Explosion",
+      "icon": "/img/klee/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG."
+        }
+      ]
+    },
+    {
+      "name": "Nova Burst",
+      "icon": "/img/klee/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Sparks 'n' Splash by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Blazing Delight",
+      "icon": "/img/klee/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy."
+        },
+        {
+          "text": "When Sparks 'n' Splash is used, all party members will gain 10% Pyro DMG Bonus for 25s."
+        }
+      ]
+    }
+  ]
+}

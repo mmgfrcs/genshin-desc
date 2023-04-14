@@ -1,0 +1,209 @@
+{
+  "name": "Ayato",
+  "element": "hydro",
+  "icon": "/img/ayato/icon-big.webp",
+  "weapon": "SWORD",
+  "rarity": 5,
+  "portrait": "data:,",
+  "id": "ayato",
+  "talents": [
+    {
+      "name": "Kamisato Art - Marobashi",
+      "icon": "/img/ayato/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 5 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to dash forward and perform an iai."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Kamisato Art: Kyouka",
+      "icon": "/img/ayato/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state. After this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing AoE Hydro DMG"
+        },
+        {
+          "text": "Takimeguri Kanka"
+        },
+        {
+          "text": "In this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into AoE Hydro DMG. This cannot be overridden. It also has the following properties:"
+        },
+        {
+          "text": "After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends."
+        },
+        {
+          "text": "Kamisato Ayato's resistance to interruption is increased."
+        },
+        {
+          "text": "Unable to use Charged or Plunging Attacks."
+        },
+        {
+          "text": "Takimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state."
+        }
+      ]
+    },
+    {
+      "name": "Kamisato Art: Suiyuu",
+      "icon": "/img/ayato/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Unveils a garden of purity that silences the cacophony within. While this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing Hydro DMG and increasing the Normal Attack DMG of characters within."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+      "icon": "/img/ayato/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Kamisato Art: Kyouka has the following properties:"
+        },
+        {
+          "text": "After it is used, Kamisato Ayato will gain 2 Namisen stacks."
+        },
+        {
+          "text": "When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible."
+        }
+      ]
+    },
+    {
+      "name": "Kamisato Art: Michiyuku Hagetsu",
+      "icon": "/img/ayato/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second."
+        }
+      ]
+    },
+    {
+      "name": "Kamisato Art: Daily Cooking",
+      "icon": "/img/ayato/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Kyouka Fuushi",
+      "icon": "/img/ayato/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Shunsuiken DMG is increased by 40% against opponents with 50% HP or less."
+        }
+      ]
+    },
+    {
+      "name": "World Source",
+      "icon": "/img/ayato/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Namisen's maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%."
+        }
+      ]
+    },
+    {
+      "name": "To Admire the Flowers",
+      "icon": "/img/ayato/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Kamisato Art: Kyouka by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Endless Flow",
+      "icon": "/img/ayato/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "After using Kamisato Art: Suiyuu, all nearby party members will have 15% increased Normal Attack SPD for 15s."
+        }
+      ]
+    },
+    {
+      "name": "Bansui Ichiro",
+      "icon": "/img/ayato/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Kamisato Art: Suiyuu by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Boundless Origin",
+      "icon": "/img/ayato/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "After using Kamisato Art: Kyouka, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG. Both these Shunsuiken attacks will not be affected by Namisen."
+        }
+      ]
+    }
+  ]
+}

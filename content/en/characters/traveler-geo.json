@@ -1,0 +1,186 @@
+{
+  "name": "Traveler",
+  "element": "geo",
+  "icon": "/img/traveler-geo/icon-big.webp",
+  "weapon": "SWORD",
+  "rarity": 5,
+  "portrait": "/img/traveler-geo/portrait.webp",
+  "id": "traveler-geo",
+  "talents": [
+    {
+      "name": "Foreign Rockblade",
+      "icon": "/img/traveler-geo/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 5 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Starfell Sword",
+      "icon": "/img/traveler-geo/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "You disgorge a meteorite from the depths of the earth, dealing AoE Geo DMG. The meteorite is considered a Geo Construct, and can be climbed or used to block attacks."
+        },
+        {
+          "text": "Hold: This skill's positioning may be adjusted."
+        }
+      ]
+    },
+    {
+      "name": "Wake of Earth",
+      "icon": "/img/traveler-geo/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Energizing the Geo elements deep underground, you set off expanding shockwaves."
+        },
+        {
+          "text": "Launches surrounding opponents back and deals AoE Geo DMG."
+        },
+        {
+          "text": "A stone wall is erected at the edges of the shockwave."
+        },
+        {
+          "text": "The stone wall is considered a Geo Construct, and may be used to block attacks."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Shattered Darkrock",
+      "icon": "data:,",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Reduces Starfell Sword's CD by 2s."
+        }
+      ]
+    },
+    {
+      "name": "Frenzied Rockslide",
+      "icon": "/img/traveler-geo/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Invincible Stonewall",
+      "icon": "/img/traveler-geo/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption."
+        }
+      ]
+    },
+    {
+      "name": "Rockcore Meltdown",
+      "icon": "/img/traveler-geo/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword."
+        }
+      ]
+    },
+    {
+      "name": "Will of the Rock",
+      "icon": "/img/traveler-geo/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Wake of Earth by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Reaction Force",
+      "icon": "/img/traveler-geo/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The shockwave triggered by Wake of Earth regenerates 5 Energy for every enemy hit. A maximum of 25 Energy can be recovered in this manner."
+        }
+      ]
+    },
+    {
+      "name": "Meteorite Impact",
+      "icon": "/img/traveler-geo/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Starfell Sword by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Everlasting Boulder",
+      "icon": "/img/traveler-geo/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The barrier created by Wake of Earth lasts 5s longer. The meteorite created by Starfell Sword lasts 10s longer."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "name": "Arataki Itto",
+  "element": "geo",
+  "icon": "/img/arataki-itto/icon-big.webp",
+  "weapon": "CLAYMORE",
+  "rarity": 5,
+  "portrait": "/img/arataki-itto/portrait.webp",
+  "id": "arataki-itto",
+  "talents": [
+    {
+      "name": "Fight Club Legend",
+      "icon": "/img/arataki-itto/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 4 consecutive strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "When holding to perform a Charged Attack, Itto unleashes a series of Arataki Kesagiri slashes without consuming Stamina. Instead, each Arataki Kesagiri slash consumes 1 stack of Superlative Superstrength. When the final stack is consumed, Itto delivers a powerful final slash. If no stacks of Superlative Superstrength are available, Itto will perform a single Saichimonji Slash."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Masatsu Zetsugi: Akaushi Burst!",
+      "icon": "/img/arataki-itto/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing Geo DMG to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of Superlative Superstrength."
+        }
+      ]
+    },
+    {
+      "name": "Royal Descent: Behold, Itto the Evil!",
+      "icon": "/img/arataki-itto/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Woodchuck Chucked",
+      "icon": "/img/arataki-itto/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood."
+        }
+      ]
+    },
+    {
+      "name": "Arataki Ichiban",
+      "icon": "/img/arataki-itto/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:"
+        },
+        {
+          "text": " - Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%."
+        },
+        {
+          "text": " - Increases his resistance to interruption."
+        },
+        {
+          "text": "These effects will be cleared once he stops performing consecutive slashes."
+        }
+      ]
+    },
+    {
+      "name": "Bloodline of the Crimson Oni",
+      "icon": "/img/arataki-itto/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Stay a While and Listen Up",
+      "icon": "/img/arataki-itto/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Royal Descent: Behold, Itto the Evil!, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s."
+        }
+      ]
+    },
+    {
+      "name": "Gather 'Round, It's a Brawl!",
+      "icon": "/img/arataki-itto/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Geo will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto. CD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner."
+        }
+      ]
+    },
+    {
+      "name": "Horns Lowered, Coming Through",
+      "icon": "/img/arataki-itto/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Masatsu Zetsugi: Akaushi Burst! by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Jailhouse Bread and Butter",
+      "icon": "/img/arataki-itto/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the Raging Oni King state caused by Royal Descent: Behold, Itto the Evil! ends, all nearby party members gain 20% DEF and 20% ATK for 10s."
+        }
+      ]
+    },
+    {
+      "name": "10 Years of Hanamizaka Fame",
+      "icon": "/img/arataki-itto/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Royal Descent: Behold, Itto the Evil! by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Arataki Itto, Present!",
+      "icon": "/img/arataki-itto/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Arataki Itto's Charged Attacks deal +70% Crit DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength."
+        }
+      ]
+    }
+  ]
+}

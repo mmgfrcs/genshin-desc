@@ -1,0 +1,210 @@
+{
+  "name": "Aloy",
+  "element": "cryo",
+  "icon": "/img/aloy/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 5,
+  "portrait": "/img/aloy/portrait.webp",
+  "id": "aloy",
+  "talents": [
+    {
+      "name": "Rapid Fire",
+      "icon": "/img/aloy/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 4 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG."
+        },
+        {
+          "text": "While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG"
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Frozen Wilds",
+      "icon": "/img/aloy/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Aloy throws a Freeze Bomb in the targeted direction and triggers an explosion, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG."
+        },
+        {
+          "text": "When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack."
+        },
+        {
+          "text": "Aloy can gain up to 1 Coil stack every 0.1s."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Coil"
+        },
+        {
+          "text": "Each stack increases Aloy's Normal Attack DMG."
+        },
+        {
+          "text": "When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG."
+        }
+      ]
+    },
+    {
+      "name": "Prophecies of Dawn",
+      "icon": "/img/aloy/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo Damage."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Combat Override",
+      "icon": "/img/aloy/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s."
+        }
+      ]
+    },
+    {
+      "name": "Strong Strike",
+      "icon": "/img/aloy/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way."
+        }
+      ]
+    },
+    {
+      "name": "Easy Does It",
+      "icon": "/img/aloy/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Star of Another World (1)",
+      "icon": "/img/aloy/constellation-1.webp",
+      "level": 1,
+      "description": [
+        {
+          "text": "This star is not of this world."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "The time has not yet come for this person's corner of the night sky to light up."
+        }
+      ]
+    },
+    {
+      "name": "Star of Another World (2)",
+      "icon": "/img/aloy/constellation-2.webp",
+      "level": 2,
+      "description": [
+        {
+          "text": "This star is not of this world."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "The time has not yet come for this person's corner of the night sky to light up."
+        }
+      ]
+    },
+    {
+      "name": "Star of Another World (3)",
+      "icon": "/img/aloy/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "This star is not of this world."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "The time has not yet come for this person's corner of the night sky to light up."
+        }
+      ]
+    },
+    {
+      "name": "Star of Another World (4)",
+      "icon": "/img/aloy/constellation-4.webp",
+      "level": 4,
+      "description": [
+        {
+          "text": "This star is not of this world."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "The time has not yet come for this person's corner of the night sky to light up."
+        }
+      ]
+    },
+    {
+      "name": "Star of Another World (5)",
+      "icon": "/img/aloy/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "This star is not of this world."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "The time has not yet come for this person's corner of the night sky to light up."
+        }
+      ]
+    },
+    {
+      "name": "Star of Another World (6)",
+      "icon": "/img/aloy/constellation-6.webp",
+      "level": 6,
+      "description": [
+        {
+          "text": "This star is not of this world."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "The time has not yet come for this person's corner of the night sky to light up."
+        }
+      ]
+    }
+  ]
+}

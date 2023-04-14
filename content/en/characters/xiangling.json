@@ -1,0 +1,191 @@
+{
+  "name": "Xiangling",
+  "element": "pyro",
+  "icon": "/img/xiangling/icon-big.webp",
+  "weapon": "POLEARM",
+  "rarity": 4,
+  "portrait": "/img/xiangling/portrait.webp",
+  "id": "xiangling",
+  "talents": [
+    {
+      "name": "Dough-Fu",
+      "icon": "/img/xiangling/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 5 consecutive spear strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Guoba Attack",
+      "icon": "/img/xiangling/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Summons Guoba the Panda. Guoba continuously breathes fire, dealing AoE Pyro DMG."
+        }
+      ]
+    },
+    {
+      "name": "Pyronado",
+      "icon": "/img/xiangling/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The Pyronado will move with your character for so long as the ability persists, dealing Pyro DMG to all enemies in its path."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Crossfire",
+      "icon": "/img/xiangling/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases the flame range of Guoba by 20%."
+        }
+      ]
+    },
+    {
+      "name": "Beware, It's Super Hot!",
+      "icon": "/img/xiangling/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Guoba Attack's effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Chef de Cuisine",
+      "icon": "/img/xiangling/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Crispy Outside, Tender Inside",
+      "icon": "/img/xiangling/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Enemies hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s."
+        }
+      ]
+    },
+    {
+      "name": "Oil Meets Fire",
+      "icon": "/img/xiangling/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The last attack in a Normal Attack sequence applies the Implode status onto the enemy for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG."
+        }
+      ]
+    },
+    {
+      "name": "Deepfry",
+      "icon": "/img/xiangling/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Pyronado by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Slowbake",
+      "icon": "/img/xiangling/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Pyronado's duration is increased by 40%."
+        }
+      ]
+    },
+    {
+      "name": "Guoba Mad",
+      "icon": "/img/xiangling/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Guoba Attack by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Condensed Pyronado",
+      "icon": "/img/xiangling/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus."
+        }
+      ]
+    }
+  ]
+}

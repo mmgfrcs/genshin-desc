@@ -1,0 +1,221 @@
+{
+  "name": "Yelan",
+  "element": "hydro",
+  "icon": "/img/yelan/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 5,
+  "portrait": "/img/yelan/portrait.webp",
+  "id": "yelan",
+  "talents": [
+    {
+      "name": "Stealthy Bowshot",
+      "icon": "/img/yelan/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 4 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG. While aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal Hydro DMG."
+        },
+        {
+          "text": "Breakthrough"
+        },
+        {
+          "text": "Yelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal AoE Hydro DMG based on Yelan's Max HP. "
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": " Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Lingering Lifeline",
+      "icon": "/img/yelan/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path. When this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP."
+        },
+        {
+          "text": "Tap"
+        },
+        {
+          "text": "Moves a certain distance forward swiftly. "
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "Engages in continuous, swift movement, during which Yelan's resistance to interruption is increased. During this time, Yelan can control this rapid movement and end it by using this Skill again. "
+        },
+        {
+          "text": " Additionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% change to reset her Breakthrough state."
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Depth-Clarion Dice",
+      "icon": "/img/yelan/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Deals AoE Hydro DMG and creates an \"Exquisite Throw,\" which aids her in battle. "
+        },
+        {
+          "text": "Exquisite Throw"
+        },
+        {
+          "text": "Follows the character around and will initiate a coordinated attack under the following circumstances, dealing Hydro DMG based on Yelan's Max HP:"
+        },
+        {
+          "text": "* Can occur once every second when your active character uses a Normal Attack."
+        },
+        {
+          "text": "* Will occur each time Yelan's Lifeline explodes and hits opponents."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Turn Control",
+      "icon": "/img/yelan/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%"
+        }
+      ]
+    },
+    {
+      "name": "Adapt With Ease",
+      "icon": "/img/yelan/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "So long as an \"Exquisite Throw,\" is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50% "
+        },
+        {
+          "text": "The pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration."
+        }
+      ]
+    },
+    {
+      "name": "Necessary Calculation",
+      "icon": "/img/yelan/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Enter the Plotters",
+      "icon": "/img/yelan/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Lingering Lifeline gains 1 additional charge."
+        }
+      ]
+    },
+    {
+      "name": "Taking All Comers",
+      "icon": "/img/yelan/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Exquisite Throw conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG. This effect can trigger once every 1.8s."
+        }
+      ]
+    },
+    {
+      "name": "Beware of Trickster's Dice",
+      "icon": "/img/yelan/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Depth-Clarion-Dice by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Bait-and-Switch",
+      "icon": "/img/yelan/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases all party members' Max HP by 10% for 25s for every opponent marked by Lifeline when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner."
+        }
+      ]
+    },
+    {
+      "name": "Dealer's Sleight",
+      "icon": "/img/yelan/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Lingering Lifeline by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Winner Takes All",
+      "icon": "/img/yelan/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "After using Depth-Clarion Dice, Yelan will enter will enter the Mastermind state. In this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG."
+        },
+        {
+          "text": " The mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "name": "Noelle",
+  "element": "geo",
+  "icon": "/img/noelle/icon-big.webp",
+  "weapon": "CLAYMORE",
+  "rarity": 4,
+  "portrait": "/img/noelle/portrait.webp",
+  "id": "noelle",
+  "talents": [
+    {
+      "name": "Favonius Bladework - Maid",
+      "icon": "/img/noelle/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 4 consecutive strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Drains Stamina over time to perform continuous swirling attacks against all nearby enemies."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "At end of the sequence, perform a more powerful slash."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Breastplate",
+      "icon": "/img/noelle/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Summons a protective stone armor, dealing Geo DMG to surrounding enemies and creating a shield. The shield's DMG Absorption scaled based on Noelle's DEF."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The shield has the following properties:"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters, both on and off the field."
+        },
+        {
+          "text": "Applies the Geo element to the character."
+        },
+        {
+          "text": "Possesses 250% Absorption Efficiency against Geo DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The amount of HP healed when regeneration is triggered scales based on Noelle's DEF."
+        }
+      ]
+    },
+    {
+      "name": "Sweeping Time",
+      "icon": "/img/noelle/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Gathering the strength of stone around her weapon, Noelle strikes the enemies surrounding her within a large AoE, dealing Geo DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Afterwards, Noelle gains the following effects:"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Larger attack AoE."
+        },
+        {
+          "text": "Converts attack DMG to Geo DMG."
+        },
+        {
+          "text": "Increased ATK that scales based on her DEF."
+        },
+        {
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Devotion",
+      "icon": "/img/noelle/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Noelle is in the party but not on the field, this ability triggers automatically when the active character's HP falls below 30%:"
+        },
+        {
+          "text": "Creates a shield that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. This effect can only occur once every 60s."
+        }
+      ]
+    },
+    {
+      "name": "Nice and Clean",
+      "icon": "/img/noelle/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Every 4 Normal or Charged Attack hits will decrease the CD of Breastplate by 1s."
+        },
+        {
+          "text": "Hitting multiple enemies with a single attack is only counted as 1 hit."
+        }
+      ]
+    },
+    {
+      "name": "Maid's Knighthood",
+      "icon": "/img/noelle/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "I Got Your Back",
+      "icon": "/img/noelle/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "While Sweeping Time and Breastplate are both in effect, the chance of Breastplate's healing effects activating is increased to 100%."
+        }
+      ]
+    },
+    {
+      "name": "Combat Maid",
+      "icon": "/img/noelle/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%."
+        }
+      ]
+    },
+    {
+      "name": "Invulnerable Maid",
+      "icon": "/img/noelle/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Breastplate by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "To Be Cleaned",
+      "icon": "/img/noelle/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% ATK of Geo DMG to surrounding enemies."
+        }
+      ]
+    },
+    {
+      "name": "Favonius Sweeper Master",
+      "icon": "/img/noelle/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Sweeping Time by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Must Be Spotless",
+      "icon": "/img/noelle/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Sweeping Time increases Noelle's ATK by an additional 50% of her DEF."
+        },
+        {
+          "text": "Additionally, every enemy defeated during the skill's duration adds 1s to the duration, up to 10s."
+        }
+      ]
+    }
+  ]
+}

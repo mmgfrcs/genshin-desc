@@ -1,0 +1,203 @@
+{
+  "name": "Rosaria",
+  "element": "cryo",
+  "icon": "/img/rosaria/icon-big.webp",
+  "weapon": "POLEARM",
+  "rarity": 4,
+  "portrait": "/img/rosaria/portrait.webp",
+  "id": "rosaria",
+  "talents": [
+    {
+      "name": "Spear of the Church",
+      "icon": "/img/rosaria/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to five rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Ravaging Confession",
+      "icon": "/img/rosaria/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Rosaria swiftly positions herself behind her opponent, then pierces and slashes the enemy with her polearm, dealing Cryo DMG."
+        },
+        {
+          "text": "Rosaria cannot use this ability to move behind larger opponents."
+        }
+      ]
+    },
+    {
+      "name": "Rites of Termination",
+      "icon": "/img/rosaria/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Rosaria's unique take on this prayer ritual."
+        },
+        {
+          "text": "First, she swings her weapon to slash surrounding enemies; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal Cryo DMG."
+        },
+        {
+          "text": "While active, the Ice Lance periodically releases a blast of cold air, dealing Cryo DMG to surrounding enemies."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Regina Probationum",
+      "icon": "/img/rosaria/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Rosaria strikes an opponent from behind using Ravaging Confession, Rosaria's CRIT Rate increases by 12% for 5s."
+        }
+      ]
+    },
+    {
+      "name": "Shadow Samaritan",
+      "icon": "/img/rosaria/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s."
+        },
+        {
+          "text": "Rosaria's CRIT Rate Bonus gained this way cannot exceed 15%."
+        }
+      ]
+    },
+    {
+      "name": "Night Walk",
+      "icon": "/img/rosaria/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "At night (18:00 - 6:00), increases the Movement SPD of your own party members by 10%."
+        },
+        {
+          "text": "Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the same effects."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Unholy Revelation",
+      "icon": "/img/rosaria/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s."
+        }
+      ]
+    },
+    {
+      "name": "Land Without Promise",
+      "icon": "/img/rosaria/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The duration of the Ice Lance created by Rites of Termination is increased by 4s."
+        }
+      ]
+    },
+    {
+      "name": "The Wages of Sin",
+      "icon": "/img/rosaria/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Ravaging Confession by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Painful Grace",
+      "icon": "/img/rosaria/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Ravaging Confession's CRIT Hits regenerate 5 Energy for Rosaria."
+        },
+        {
+          "text": "Can only be triggered once each time Ravaging Confession is cast."
+        }
+      ]
+    },
+    {
+      "name": "Last Rites",
+      "icon": "/img/rosaria/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Rites of Termination by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Divine Retribution",
+      "icon": "/img/rosaria/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Rites of Termination's attack decreases opponents' Physical RES by 20% for 10s."
+        }
+      ]
+    }
+  ]
+}

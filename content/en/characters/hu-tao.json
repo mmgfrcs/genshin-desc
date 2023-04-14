@@ -1,0 +1,230 @@
+{
+  "name": "Hu Tao",
+  "element": "pyro",
+  "icon": "/img/hu-tao/icon-big.webp",
+  "weapon": "POLEARM",
+  "rarity": 5,
+  "portrait": "/img/hu-tao/portrait.webp",
+  "id": "hu-tao",
+  "talents": [
+    {
+      "name": "Secret Spear of Wangsheng",
+      "icon": "/img/hu-tao/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 6 consecutive spear strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Guide to Afterlife",
+      "icon": "/img/hu-tao/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Paramita Papilio"
+        },
+        {
+          "text": "Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK."
+        },
+        {
+          "text": "Converts attack DMG to Pyro DMG, which cannot be overridden by any other elemental infusion."
+        },
+        {
+          "text": "Increases Hu Tao's resistance to interruption."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Blood Blossom"
+        },
+        {
+          "text": "Enemies affected by Blood Blossom will take Pyro DMG every 4s. This DMG is considered Elemental Skill DMG."
+        },
+        {
+          "text": "Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Paramita Papilio ends when its duration is over, or Hu Tao has left the battlefield or fallen."
+        }
+      ]
+    },
+    {
+      "name": "Spirit Soother",
+      "icon": "/img/hu-tao/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Commands a blazing spirit to attack, dealing Pyro DMG in a large AoE."
+        },
+        {
+          "text": "Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit. If Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Flutter By",
+      "icon": "/img/hu-tao/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a Paramita Papilio state activated by Guide to Afterlife ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Sanguine Rouge",
+      "icon": "/img/hu-tao/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Hu Tao's HP is equal to or less than 50%, her Pyro DMG Bonus is increased by 33%."
+        }
+      ]
+    },
+    {
+      "name": "The More the Merrier",
+      "icon": "/img/hu-tao/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Hu Tao cooks a dish perfectly, she has anm 18% chance to receive an additional \"Suspicious\" dish of the same type."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Crimson Bouquet",
+      "icon": "/img/hu-tao/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "While in a Paramita Papilio state activated by Guide to Afterlife, Hu Tao's Charge Attacks do not consume Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Ominous Rainfall",
+      "icon": "/img/hu-tao/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases the Blood Blossom DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied."
+        },
+        {
+          "text": "Additionally, Spirit Soother will also apply the Blood Blossom effect."
+        }
+      ]
+    },
+    {
+      "name": "Lingering Carmine",
+      "icon": "/img/hu-tao/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Guide to Afterlife by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Garden of Eternal Rest",
+      "icon": "/img/hu-tao/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Upon defeating an enemy affected by a Blood Blossom, that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s."
+        }
+      ]
+    },
+    {
+      "name": "Floral Incense",
+      "icon": "/img/hu-tao/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Spirit Soother by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Butterfly's Embrace",
+      "icon": "/img/hu-tao/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:"
+        },
+        {
+          "text": "Hu Tao will not fall as a result of the DMG sustained."
+        },
+        {
+          "text": "Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased."
+        },
+        {
+          "text": "This effect triggers automatically when Hu Tao has 1 HP left."
+        },
+        {
+          "text": "Can only occur once every 60s."
+        }
+      ]
+    }
+  ]
+}

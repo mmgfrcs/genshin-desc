@@ -1,0 +1,314 @@
+{
+  "id": "amber",
+  "name": "Amber",
+  "icon": "/img/amber/icon-big.webp",
+  "portrait": "/img/amber/portrait.webp",
+  "rarity": 4,
+  "weapon": "BOW",
+  "element": "pyro",
+  "talents": [
+    {
+      "type": "normal",
+      "icon": "/img/amber/talent-na.webp",
+      "name": "Sharpshooter",
+      "images": [
+        "/img/amber/Sharpshooter_Normal_Preview.gif",
+        "/img/amber/Sharpshooter_Charged_Preview.gif",
+        "/img/amber/Sharpshooter_Plunge_Preview.gif"
+      ],
+      "description": [
+        {
+          "text": "Normal Attack",
+          "style": "subtitle"
+        },
+        {
+          "text": "Deal Physical DMG to an enemy. Has a 5 hit combo."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Charged Attack (Aimed Shot)",
+          "style": "subtitle"
+        },
+        {
+          "text": "Charge the next shot in 1 second. A fully charged shot deals Pyro DMG to an enemy."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Plunging Attack",
+          "style": "subtitle"
+        },
+        {
+          "text": "Drop to the ground below and deal AoE Physical DMG upon impact."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 5 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "While aiming, flames accumulates on the arrowhead. A fully charged flaming arrow will deal Pyro DMG."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "type": "skill",
+      "icon": "/img/amber/talent-skill.webp",
+      "name": "Explosive Puppet",
+      "images": [
+        "/img/amber/Explosive_Puppet_Press_Preview.gif",
+        "/img/amber/Explosive_Puppet_Hold_Preview.gif"
+      ],
+      "description": [
+        {
+          "text": "Press",
+          "style": "subtitle"
+        },
+        {
+          "text": "Summons a Baron Bunny in front."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Hold",
+          "style": "subtitle"
+        },
+        {
+          "text": "Summons a Baron Bunny and throw it forward. The longer the button is held, the further the throw."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Baron Bunny",
+          "style": "subtitle"
+        },
+        {
+          "text": " - Continuously taunts the enemy."
+        },
+        {
+          "text": " - Has HP which scales with Amber's Max HP."
+        },
+        {
+          "text": " - When destroyed or when its timer expires, Baron Bunny explodes, dealing AoE Pyro DMG."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Baron Bunny"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Continuously taunts the enemy, drawing their fire."
+        },
+        {
+          "text": "Baron Bunny's HP scales with Amber's Max HP."
+        },
+        {
+          "text": "When destroyed or when its timer expires, Baron Bunny explodes, dealing AoE Pyro DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "Adjusts the throwing direction of Baron Bunny."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The longer the button is held, the further the throw."
+        }
+      ]
+    },
+    {
+      "type": "burst",
+      "icon": "/img/amber/talent-burst.webp",
+      "name": "Fiery Rain",
+      "images": [
+        "/img/amber/Fiery_Rain_Preview.gif"
+      ],
+      "description": [
+        {
+          "text": "Deal continuous AoE Pyro DMG for 2 seconds at a small area by firing off a shower of arrows."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Fires of a shower of arrows, dealing continuous AoE Pyro DMG."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "type": "asc1",
+      "icon": "/img/amber/talent-passive-0.webp",
+      "name": "Every Arrow Finds Its Target",
+      "description": [
+        {
+          "text": "Increases the CRIT Rate of her Elemental Burst by 10% and widens its AoE by 30%."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%."
+        }
+      ]
+    },
+    {
+      "type": "asc2",
+      "icon": "/img/amber/talent-passive-1.webp",
+      "name": "Precise Shot",
+      "description": [
+        {
+          "text": "Aimed Shot hits on weak points increase ATK by 15% for 10s."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Aimed Shot hits on weak spots increase Base ATK by 15% for 10s."
+        }
+      ]
+    },
+    {
+      "type": "utility",
+      "icon": "/img/amber/talent-passive-2.webp",
+      "name": "Gliding Champion",
+      "description": [
+        {
+          "text": "Decreases gliding Stamina consumption for your own party members by 20%."
+        },
+        {
+          "text": "Not stackable with Passive Talents that provide the exact same effects."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Decreases all party members' gliding Stamina Consumption by 20%."
+        },
+        {
+          "text": "The greatest effect out of all Talents of the same type prevails."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "One Arrow to Rule Them All",
+      "icon": "/img/amber/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG."
+        }
+      ]
+    },
+    {
+      "name": "Bunny Triggered",
+      "icon": "/img/amber/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it."
+        },
+        {
+          "text": "Explosion via manual detonation deals 200% additional DMG."
+        }
+      ]
+    },
+    {
+      "name": "It Burns!",
+      "icon": "/img/amber/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Fiery Rain by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "It's Not Just Any Doll...",
+      "icon": "/img/amber/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge."
+        }
+      ]
+    },
+    {
+      "name": "It's Baron Bunny!",
+      "icon": "/img/amber/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Explosive Puppet by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Wildfire",
+      "icon": "/img/amber/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Fiery Rain increases Amber's Movement SPD by 15% and Base ATK by 15% for 10s."
+        }
+      ]
+    }
+  ]
+}

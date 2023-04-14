@@ -1,0 +1,317 @@
+{
+  "id": "barbara",
+  "name": "Barbara",
+  "icon": "/img/barbara/icon-big.webp",
+  "portrait": "/img/barbara/portrait.webp",
+  "rarity": 4,
+  "weapon": "CATALYST",
+  "element": "hydro",
+  "talents": [
+    {
+      "type": "normal",
+      "icon": "/img/barbara/talent-na.webp",
+      "name": "Whisper of Water",
+      "images": [
+        "/img/amber/Sharpshooter_Normal_Preview.gif",
+        "/img/amber/Sharpshooter_Charged_Preview.gif",
+        "/img/amber/Sharpshooter_Plunge_Preview.gif"
+      ],
+      "description": [
+        {
+          "text": "Normal Attack",
+          "style": "subtitle"
+        },
+        {
+          "text": "Deal Hydro DMG to an enemy. Has a 4 hit combo."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Charged Attack (Aimed Shot)",
+          "style": "subtitle"
+        },
+        {
+          "text": "Deal AoE Hydro DMG with a 1s delay. Consumes Stamina."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Plunging Attack",
+          "style": "subtitle"
+        },
+        {
+          "text": "Drop to the ground below, dealing Hydro DMG on its way, and deal AoE Hydro DMG upon impact."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 4 water splashes attacks that deal Hydro DMG."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Hydro DMG upon impact with the ground."
+        }
+      ]
+    },
+    {
+      "type": "skill",
+      "icon": "/img/barbara/talent-skill.webp",
+      "name": "Let the Show Begin",
+      "images": [
+        "/img/amber/Explosive_Puppet_Press_Preview.gif",
+        "/img/amber/Explosive_Puppet_Hold_Preview.gif"
+      ],
+      "description": [
+        {
+          "text": "Press",
+          "style": "subtitle"
+        },
+        {
+          "text": "Summons a Melody Loop on herself, dealing Hydro DMG to surrounding enemies and applies Wet."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Melody Loop",
+          "style": "subtitle"
+        },
+        {
+          "text": " - When Barbara landed a Normal or Charged Attack, heal your own party members and nearby allies, which scales based on her Max HP. Landing a Charged Attack heals for 4x the healing amount."
+        },
+        {
+          "text": " - Regenerate the active character's HP once every 4 seconds and apply Wet to said character."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Summons water droplets resembling musical notes that form a Melody Loop, dealing Hydro DMG to surrounding enemies and afflicting them with the Wet status."
+        },
+        {
+          "text": "Melody Loop"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Barbara's Normal Attacks heal all party members and nearby allied characters for a certain amount of HP, which scales with Barbara's Max HP."
+        },
+        {
+          "text": "Her Charged Attack generates 4 times the amount of healing."
+        },
+        {
+          "text": "Regenerates a certain amount of the current character's HP at regular intervals."
+        },
+        {
+          "text": "Applies the Wet status to the character and enemies who come in contact with them."
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "burst",
+      "icon": "/img/barbara/talent-burst.webp",
+      "name": "Shining Miracle",
+      "images": [
+        "/img/amber/Fiery_Rain_Preview.gif"
+      ],
+      "description": [
+        {
+          "text": "Heals your own party members and nearby allies for a large amount of HP that scales with Barbara's Max HP."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Heals friendly forces and all parties for a large amount of HP that scales with Barbara's Max HP."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "type": "asc1",
+      "icon": "/img/barbara/talent-passive-0.webp",
+      "name": "Glorious Season",
+      "description": [
+        {
+          "text": "Reduce the Stamina Consumption of characters with Melody Loop by 12%."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "The Stamina Consumption of characters within Let the Show Begin's Melody Loop is reduced by 12%."
+        }
+      ]
+    },
+    {
+      "type": "asc2",
+      "icon": "/img/barbara/talent-passive-1.webp",
+      "name": "Encore",
+      "description": [
+        {
+          "text": "When your active character receives an Elemental Orb/Particle, extend Melody Loop's duration by 1s. The maximum extension is 5s."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "When a character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s."
+        },
+        {
+          "text": "The maximum extension is 5s."
+        }
+      ]
+    },
+    {
+      "type": "utility",
+      "icon": "/img/barbara/talent-passive-2.webp",
+      "name": "With My Whole Heart",
+      "description": [
+        {
+          "text": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "level": 1,
+      "icon": "/img/barbara/constellation-1.webp",
+      "name": "Gleeful Songs",
+      "description": [
+        {
+          "text": "Barbara regenerates 1 Energy every 10s."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Barbara regenerates 1 Energy every 10s."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "icon": "/img/barbara/constellation-2.webp",
+      "name": "Vitality Burst",
+      "description": [
+        {
+          "text": "Decreases Elemental Skill CD by 15%"
+        },
+        {
+          "text": "During Melody Loop's duration, the active character gains a 15% Hydro DMG Bonus"
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Decreases the CD of Let the Show Begin by 15%."
+        },
+        {
+          "text": "During the ability's duration, the current character gains 15% Hydro DMG Bonus."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "icon": "/img/barbara/constellation-3.webp",
+      "name": "Star of Tomorrow",
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Shining Miracle by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "icon": "/img/barbara/constellation-4.webp",
+      "name": "Attentiveness be My Power",
+      "description": [
+        {
+          "text": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her, for a maximum of 5 energy with any one Charged Attack"
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Every enemy hit by Barbara's Charged Attack regenerates 1 Energy for her. A maximum of 5 energy can be regenerated in this manner with any one Charged Attack."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "icon": "/img/barbara/constellation-5.webp",
+      "name": "The Purest Companionship",
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Let the Show Begin by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "icon": "/img/barbara/constellation-6.webp",
+      "name": "Dedicating Everything to You",
+      "description": [
+        {
+          "text": "When Barbara is in the party but not on the field, and one of your own party members falls: Automatically revives the fallen character at 100% HP."
+        },
+        {
+          "text": "This effect can only occur once every 15 mins."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "When Barbara is not on the field, and the character in play falls:"
+        },
+        {
+          "text": "Automatically revives this character."
+        },
+        {
+          "text": "Fully regenerates this characters HP by 100%."
+        },
+        {
+          "text": "This effect can only occur once every 15 mins."
+        }
+      ]
+    }
+  ]
+}

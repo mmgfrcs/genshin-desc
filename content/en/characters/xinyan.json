@@ -1,0 +1,233 @@
+{
+  "name": "Xinyan",
+  "element": "pyro",
+  "icon": "/img/xinyan/icon-big.webp",
+  "weapon": "CLAYMORE",
+  "rarity": 4,
+  "portrait": "/img/xinyan/portrait.webp",
+  "id": "xinyan",
+  "talents": [
+    {
+      "name": "Dance on Fire",
+      "icon": "/img/xinyan/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 4 consecutive strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Drains Stamina over time to perform continuous spinning attacks against all nearby enemies."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "At the end of the sequence, perform a more powerful slash."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Sweeping Fervor",
+      "icon": "/img/xinyan/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby enemies, forming a shield made out of her audience's passion."
+        },
+        {
+          "text": "The shield's DMG Absorption scales based on Xinyan's DEF and on the number of enemies hit."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Hitting 0-1 enemies grants Shield Level 1: Ad Lib."
+        },
+        {
+          "text": "Hitting 2 enemies grants Shield Level 2: Lead-In."
+        },
+        {
+          "text": "Hitting 3 or more enemies grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby enemies."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The shield has the following special properties:"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When unleashed, it infuses Xinyan with Pyro."
+        },
+        {
+          "text": "It has 250% DMG Absorption effectiveness against Pyro DMG."
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Riff Revolution",
+      "icon": "/img/xinyan/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Strumming rapidly, Xinyan launches nearby enemies and deals Physical DMG to them, hyping up the crowd. The sheer intensity of the atmosphere will cause explosions that deal Pyro DMG to nearby enemies."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "\"The Show Goes On, Even Without an Audience...\"",
+      "icon": "/img/xinyan/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases the number of enemies Sweeping Fervor must hit to trigger each level of shielding."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Shield Level 2: Lead-In requirement reduced to 1 enemy hit."
+        },
+        {
+          "text": "Shield Level 3: Rave requirement reduced to 2 enemies hit or more."
+        }
+      ]
+    },
+    {
+      "name": "\"...Now That's Rock 'N' Roll!\"",
+      "icon": "/img/xinyan/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG."
+        }
+      ]
+    },
+    {
+      "name": "A Rad Recipe",
+      "icon": "/img/xinyan/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a Perfect Cooking is achieved on an DEF-boosting dish, Xinyan has a 12% chance to obtain double the product."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Fatal Acceleration",
+      "icon": "/img/xinyan/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Upon scoring a CRIT hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s."
+        },
+        {
+          "text": "Can only occur once every 5s."
+        }
+      ]
+    },
+    {
+      "name": "Impromptu Opening",
+      "icon": "/img/xinyan/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Riff Revolution Physical DMG has its Crit rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast."
+        }
+      ]
+    },
+    {
+      "name": "Double Stop",
+      "icon": "/img/xinyan/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Sweeping Fervor by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Wildfire Rhythm",
+      "icon": "/img/xinyan/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Sweeping Fervor's swing DMG decrease opponents Physical RES by 15% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Screaming for Encore",
+      "icon": "/img/xinyan/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Riff Revolution by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Rocking in Flaming",
+      "icon": "/img/xinyan/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decrease the stamina consumption of Xinyan Charged Attacks by 30%. Additionally, Xinyan Charged Attack gain an ATK bonus equal to 50% of her DEF."
+        }
+      ]
+    }
+  ]
+}

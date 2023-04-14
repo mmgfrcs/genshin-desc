@@ -1,0 +1,233 @@
+{
+  "name": "Venti",
+  "element": "anemo",
+  "icon": "/img/venti/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 5,
+  "portrait": "/img/venti/portrait.webp",
+  "id": "venti",
+  "talents": [
+    {
+      "name": "Divine Marksmanship",
+      "icon": "/img/venti/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 6 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "While aiming, favorable winds will accumulate on the arrowhead. A fully charged arrow will deal Anemo DMG."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Skyward Sonnet",
+      "icon": "/img/venti/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!"
+        },
+        {
+          "text": "Press"
+        },
+        {
+          "text": "Summons a Wind Domain at the enemy's location, dealing AoE Anemo DMG and launching enemies into the air."
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "Summons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected enemies into the air."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "After unleashing the Hold version of this ability, Venti rides the wind into the air."
+        },
+        {
+          "text": "Enemies hit by Skyward Sonnet will fall to the ground slowly."
+        }
+      ]
+    },
+    {
+      "name": "Wind's Grand Ode",
+      "icon": "/img/venti/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in objects and enemies along its path, dealing continuous Anemo DMG."
+        },
+        {
+          "text": "Elemental Absorption"
+        },
+        {
+          "text": "If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Elemental Absorption may only occur once per use."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Embrace of Winds",
+      "icon": "/img/venti/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s."
+        }
+      ]
+    },
+    {
+      "name": "Stormeye",
+      "icon": "/img/venti/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end."
+        },
+        {
+          "text": "If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element."
+        }
+      ]
+    },
+    {
+      "name": "Windrider",
+      "icon": "/img/venti/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases all party member's gliding Stamina Consumption by 20%."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Splitting Gale",
+      "icon": "/img/venti/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG."
+        }
+      ]
+    },
+    {
+      "name": "Breeze of Reminiscence",
+      "icon": "/img/venti/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Skyward Sonnet decreases enemy Anemo RES by 12% for 10s."
+        },
+        {
+          "text": "Enemies launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne."
+        }
+      ]
+    },
+    {
+      "name": "Ode to Thousand Winds",
+      "icon": "/img/venti/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Wind's Grand Ode by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Hurricane of Freedom",
+      "icon": "/img/venti/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Concierto dal Cielo",
+      "icon": "/img/venti/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Skyward Sonnet by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Storm of Defiance",
+      "icon": "/img/venti/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%."
+        },
+        {
+          "text": "If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "name": "Qiqi",
+  "element": "cryo",
+  "icon": "/img/qiqi/icon-big.webp",
+  "weapon": "SWORD",
+  "rarity": 5,
+  "portrait": "/img/qiqi/portrait.webp",
+  "id": "qiqi",
+  "talents": [
+    {
+      "name": "Ancient Sword Art",
+      "icon": "/img/qiqi/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 5 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Adeptus Art: Herald of Frost",
+      "icon": "/img/qiqi/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to nearby enemies."
+        },
+        {
+          "text": "Herald of Frost"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When Qiqi hits a target with her Normal or Charged Attacks, she regenerates HP for all party members and all nearby allied characters. Healing scales based on Qiqi's ATK."
+        },
+        {
+          "text": "Regenerates HP for current character at regular intervals."
+        },
+        {
+          "text": "Follows the character around, dealing Cryo DMG to enemies in its path."
+        },
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Adeptus Art: Preserver of Fortune",
+      "icon": "/img/qiqi/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Qiqi releases the adeptus power sealed within her body, marking nearby enemies with a Fortune-Preserving Talisman that deals Cryo DMG."
+        },
+        {
+          "text": "Fortune-Preserving Talisman"
+        },
+        {
+          "text": "When enemies affected by this Talisman take DMG, the character that dealt this DMG regenerates HP."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Life-Prolonging Methods",
+      "icon": "/img/qiqi/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+        }
+      ]
+    },
+    {
+      "name": "A Glimpse into Arcanum",
+      "icon": "/img/qiqi/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Qiqi hits enemies with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
+        }
+      ]
+    },
+    {
+      "name": "Former Life Memories",
+      "icon": "/img/qiqi/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Displays the location of nearby resources unique to Liyue on the mini-map."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Ascetics of Frost",
+      "icon": "/img/qiqi/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the Herald of Frost hits an enemy marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy."
+        }
+      ]
+    },
+    {
+      "name": "Frozen to the Bone",
+      "icon": "/img/qiqi/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Qiqi's Normal and Charge Attack DMG against enemies affected by Cryo is increased by 15%."
+        }
+      ]
+    },
+    {
+      "name": "Ascendant Praise",
+      "icon": "/img/qiqi/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Adeptus Art: Preserver of Fortune by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Divine Suppression",
+      "icon": "/img/qiqi/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%."
+        }
+      ]
+    },
+    {
+      "name": "Crimson Lotus Bloom",
+      "icon": "/img/qiqi/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Adeptus Art: Herald of Frost by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Rite of Resurrection",
+      "icon": "/img/qiqi/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Using Adeptus Art: Preserve of Fortune revives all nearby fallen characters and regenerates 50% of their HP."
+        },
+        {
+          "text": "This effect can only occur once every 15 mins."
+        }
+      ]
+    }
+  ]
+}

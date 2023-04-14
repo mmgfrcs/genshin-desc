@@ -1,0 +1,224 @@
+{
+  "name": "Ningguang",
+  "element": "geo",
+  "icon": "/img/ningguang/icon-big.webp",
+  "weapon": "CATALYST",
+  "rarity": 4,
+  "portrait": "/img/ningguang/portrait.webp",
+  "id": "ningguang",
+  "talents": [
+    {
+      "name": "Sparkling Scatter",
+      "icon": "/img/ningguang/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Shoots gems that deal Geo DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Upon hit, this grants Ningguang 1 Star Jade."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to fire off a giant gem that deals Geo DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Gathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Geo DMG upon impact with the ground."
+        }
+      ]
+    },
+    {
+      "name": "Jade Screen",
+      "icon": "/img/ningguang/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG."
+        },
+        {
+          "text": "Jade Screen"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Blocks enemy projectiles."
+        },
+        {
+          "text": "Endurance scales based on Ningguang's Max HP."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Jade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time."
+        }
+      ]
+    },
+    {
+      "name": "Starshatter",
+      "icon": "/img/ningguang/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her enemies that deal massive Geo DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "If Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Backup Plan",
+      "icon": "/img/ningguang/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Strategic Reserve",
+      "icon": "/img/ningguang/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Trove of Marvelous Treasure",
+      "icon": "/img/ningguang/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, and Magical Crystal Ore) on the mini-map."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Piercing Fragments",
+      "icon": "/img/ningguang/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a Normal Attack hits, it deals AoE DMG."
+        }
+      ]
+    },
+    {
+      "name": "Shock Effect",
+      "icon": "/img/ningguang/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Jade Screen is shattered, its CD will reset."
+        },
+        {
+          "text": "Can occur once every 6s."
+        }
+      ]
+    },
+    {
+      "name": "Majesty be the Array of Stars",
+      "icon": "/img/ningguang/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Starshatter by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Exquisite be the Jade, Outshining All the Beneath",
+      "icon": "/img/ningguang/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Jade Screen increases nearby characters' Elemental RES by 10%."
+        }
+      ]
+    },
+    {
+      "name": "Invincible be the Jade Screen",
+      "icon": "/img/ningguang/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Jade Screen by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Grandeur be the Seven Stars",
+      "icon": "/img/ningguang/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Starshatter is used, Ningguang gains 7 Star Jades."
+        }
+      ]
+    }
+  ]
+}

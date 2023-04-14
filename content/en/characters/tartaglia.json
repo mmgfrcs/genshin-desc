@@ -1,0 +1,266 @@
+{
+  "name": "Tartaglia",
+  "element": "hydro",
+  "icon": "/img/tartaglia/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 5,
+  "portrait": "/img/tartaglia/portrait.webp",
+  "id": "tartaglia",
+  "talents": [
+    {
+      "name": "Cutting Torrent",
+      "icon": "/img/tartaglia/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 6 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal Hydro DMG and apply Riptide status.."
+        },
+        {
+          "text": "Riptide"
+        },
+        {
+          "text": "Opponents affected by Riptide will suffer from AoE Hydro DMG effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s."
+        },
+        {
+          "text": "Riptide Burst: Defeating an opponent affected by Riptide created a Hydro burst that inflicts the Riptide status on nearby opponents hit."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact. When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack."
+        }
+      ]
+    },
+    {
+      "name": "Foul Legacy: Raging Tide",
+      "icon": "/img/tartaglia/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Unleashes a set of weaponry made of pure water, dealing Hydro DMG to surrounding opponents and entering a Melee Stance."
+        },
+        {
+          "text": "In this Stance, Tartaglia's Normal and Charged Attacks change as follows:"
+        },
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 6 consecutive Hydro strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash a cross slash, dealing Hydro DMG."
+        },
+        {
+          "text": "Riptide Slash"
+        },
+        {
+          "text": "Hitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals AoE Hydro DMG. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s."
+        },
+        {
+          "text": "After 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD."
+        },
+        {
+          "text": "If the return to a ranged stance occurs automatically after 30s, the CD is even longer."
+        }
+      ]
+    },
+    {
+      "name": "Havor: Obliteration",
+      "icon": "/img/tartaglia/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Performs different attacks based on what stance Tartaglia is in when casting."
+        },
+        {
+          "text": "Ranged Stance: Flash of Havoc"
+        },
+        {
+          "text": "Swiftly fires a Hydro-imbued magic arrow, dealing AoE Hydro DMG and applying the Riptide status."
+        },
+        {
+          "text": "Returns a portion of its Energy Cost after use."
+        },
+        {
+          "text": "Melee Stance: Light Obliteration"
+        },
+        {
+          "text": "Performs a slash with a large AoE, dealing massive Hydro DMG to all surrounding opponents, which triggers Riptide Blast."
+        },
+        {
+          "text": "Riptide Blast"
+        },
+        {
+          "text": "When the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals AoE Hydro DMG."
+        },
+        {
+          "text": "DMG dealt in this way is considered Elemental Burst DMG."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Never Ending",
+      "icon": "/img/tartaglia/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Extends Riptide duration by 8s."
+        }
+      ]
+    },
+    {
+      "name": "Sword of Torrents",
+      "icon": "/img/tartaglia/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, or if his Normal and Charged Attacks do CRIT DMG, they will apply the Riptide status effect on the hit enemy."
+        }
+      ]
+    },
+    {
+      "name": "Master of Weaponry",
+      "icon": "/img/tartaglia/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases your own party member's Normal Attack Level by 1."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Foul Legacy: Tide Withholder",
+      "icon": "/img/tartaglia/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases the CD of Foul Legacy: Raging Tide by 20%."
+        }
+      ]
+    },
+    {
+      "name": "Foul Legacy: Understream",
+      "icon": "/img/tartaglia/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy."
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Mayhem: Vortex of Turmoil",
+      "icon": "/img/tartaglia/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Foul Legacy: Raging Tide by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Mayhem: Hydrospout",
+      "icon": "/img/tartaglia/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "If Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash."
+        },
+        {
+          "text": "Riptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals."
+        }
+      ]
+    },
+    {
+      "name": "Havoc: Formless Blade",
+      "icon": "/img/tartaglia/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Havoc: Obliteration by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Havoc: Annihilation",
+      "icon": "/img/tartaglia/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Havoc: Obliteration is cast in Melee Stance, the CD of Foul Legacy: Raging Tide is reset."
+        },
+        {
+          "text": "This effect will only take place once Tartaglia returns to his Ranged Stance."
+        }
+      ]
+    }
+  ]
+}

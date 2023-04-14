@@ -1,0 +1,198 @@
+{
+  "name": "Traveler",
+  "element": "anemo",
+  "icon": "/img/traveler-anemo/icon-big.webp",
+  "weapon": "SWORD",
+  "rarity": 5,
+  "portrait": "/img/traveler-anemo/portrait.webp",
+  "id": "traveler-anemo",
+  "talents": [
+    {
+      "name": "Foreign Ironwind",
+      "icon": "/img/traveler-anemo/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 5 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Palm Vortex",
+      "icon": "/img/traveler-anemo/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing Anemo DMG 6 times in 1.5 seconds to opponents in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area."
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "DMG and AoE will gradually increase."
+        },
+        {
+          "text": "Elemental Absorption"
+        },
+        {
+          "text": "If the vortex comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal 23% additional elemental DMG of that type. Elemental Absorption may only occur once per use."
+        },
+        {
+          "text": "Generate 2 elemental particles when press and 3.5 when hold, if it hit at least 1 target."
+        }
+      ]
+    },
+    {
+      "name": "Gust Surge",
+      "icon": "/img/traveler-anemo/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing Anemo DMG each 0.5 seconds, 9 times."
+        },
+        {
+          "text": "Elemental Absorption"
+        },
+        {
+          "text": "If the vortex comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal 30.7% additional elemental DMG of that type. Elemental Absorption may only occur once per use."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Slitting Wind",
+      "icon": "data:,",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path."
+        }
+      ]
+    },
+    {
+      "name": "Second Wind",
+      "icon": "/img/traveler-anemo/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Raging Vortex",
+      "icon": "/img/traveler-anemo/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases the CD of Foul Legacy: Raging Tide by 20%."
+        }
+      ]
+    },
+    {
+      "name": "Uprising Whirlwind",
+      "icon": "/img/traveler-anemo/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases Energy Recharge by 16%."
+        }
+      ]
+    },
+    {
+      "name": "Sweeping Gust",
+      "icon": "/img/traveler-anemo/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Gust Surge by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Cherishing Breezes",
+      "icon": "/img/traveler-anemo/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Reduces DMG taken while casting Palm Vortex by 10%."
+        }
+      ]
+    },
+    {
+      "name": "Vortex Stellaris",
+      "icon": "/img/traveler-anemo/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Palm Vortex by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Intertwined Winds",
+      "icon": "/img/traveler-anemo/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%."
+        },
+        {
+          "text": "If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%."
+        }
+      ]
+    }
+  ]
+}

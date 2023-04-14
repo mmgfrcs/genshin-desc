@@ -1,0 +1,197 @@
+{
+  "name": "Sucrose",
+  "element": "anemo",
+  "icon": "/img/sucrose/icon-big.webp",
+  "weapon": "CATALYST",
+  "rarity": 4,
+  "portrait": "/img/sucrose/portrait.webp",
+  "id": "sucrose",
+  "talents": [
+    {
+      "name": "Wind Spirit Creation",
+      "icon": "/img/sucrose/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 4 attacks using Wind Spirits, dealing Anemo DMG."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Anemo DMG upon impact with the ground."
+        }
+      ]
+    },
+    {
+      "name": "Astable Anemohypostasis Creation - 6308",
+      "icon": "/img/sucrose/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Creates a small Wind Spirit that deals Anemo DMG to enemies in an AoE, pulling them towards the location of the Wind Spirit before launching them."
+        }
+      ]
+    },
+    {
+      "name": "Forbidden Creation - Isomer 75 / Type II",
+      "icon": "/img/sucrose/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit. While it persists, the Large Wind Spirit will continuously pull and launch nearby enemies, dealing AoE Anemo DMG."
+        },
+        {
+          "text": "Elemental Absorption"
+        },
+        {
+          "text": "If the Wind Spirit comes into contact with Hydro / Pyro / Cryo / Electro elements, it will deal additional DMG of that type."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Elemental Absorption may only occur once per use."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Catalyst Conversion",
+      "icon": "/img/sucrose/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Sucrose triggers a Swirl effect, characters in the party with the matching element have their Elemental Mastery increased by 50 for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Mollis Favonius",
+      "icon": "/img/sucrose/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Astable Anemohypostatis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hit an enemy, increases other party member's Elemental Mastery based on 20% of Sucrose's Elemental Mastery for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Astable Invention",
+      "icon": "/img/sucrose/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Clustered Vacuum Field",
+      "icon": "/img/sucrose/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Astable Anemohypostasis Creation - 6308 gains 1 additional charge."
+        }
+      ]
+    },
+    {
+      "name": "Beth - Unbound Form",
+      "icon": "/img/sucrose/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s."
+        }
+      ]
+    },
+    {
+      "name": "Flawless Alchemistress",
+      "icon": "/img/sucrose/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Astable Anemohypostasis Creation - 6308 by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Alchemania",
+      "icon": "/img/sucrose/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s."
+        }
+      ]
+    },
+    {
+      "name": "Caution: Standard Flask",
+      "icon": "/img/sucrose/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Forbidden Creation - Isomer 75 / Type II by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Chaotic Entropy",
+      "icon": "/img/sucrose/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration."
+        }
+      ]
+    }
+  ]
+}

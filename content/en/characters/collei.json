@@ -1,0 +1,200 @@
+{
+  "name": "Collei",
+  "element": "dendro",
+  "icon": "/img/collei/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 4,
+  "portrait": "data:,",
+  "id": "collei",
+  "talents": [
+    {
+      "name": "",
+      "icon": "data:,",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Floral Brush",
+      "icon": "data:,",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Throws out a Floral Ring that deals 1 instance of Dendro DMG to targets it comes into contact with."
+        },
+        {
+          "text": "The Floral Ring will return after a set time, dealing Dendro DMG once again."
+        }
+      ]
+    },
+    {
+      "name": "Trump-Card Kitty",
+      "icon": "data:,",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Trusty Cuilein-Anbar comes to save the day!"
+        },
+        {
+          "text": "Throws the doll named Cuilein-Anbar, causing an explosion that deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing AoE Dendro DMG."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Floral Sidewinder",
+      "icon": "data:,",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions before the Floral Ring returns, it will grant the character the Sprout effect upon return, which will continuously deal Dendro DMG equivalent to 40% of Collei's ATK to nearby opponents for 3s."
+        },
+        {
+          "text": "If another Sprout effect is triggered during its initial duration, the initial effect will be removed."
+        }
+      ]
+    },
+    {
+      "name": "The Languid Wood",
+      "icon": "data:,",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When a character within the Cuilein-Anbar Zone triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Zone's duration will be increased by 1s."
+        },
+        {
+          "text": "single Trump-Card Kitty can be extended by up to 3s."
+        }
+      ]
+    },
+    {
+      "name": "Gliding Champion of Sumeru",
+      "icon": "data:,",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases gliding Stamina consumption for your own party members by 20%."
+        },
+        {
+          "text": "Not stackable with Passive Talents that provide the exact same effects."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Deepwood Patrol",
+      "icon": "data:,",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When in the party and not on the field, Collei's Energy Recharge is increased by 20%."
+        }
+      ]
+    },
+    {
+      "name": "Through Hill and Copse",
+      "icon": "data:,",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The Passive Talent Floral Sidewinder is changed to this:"
+        },
+        {
+          "text": "The Floral Ring will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as Dendro DMG to nearby opponents for 3s."
+        },
+        {
+          "text": "From the moment of using Floral Brush to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Sprout effect will be extended by 3s."
+        },
+        {
+          "text": "The Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed."
+        },
+        {
+          "text": "Requires you to have unlocked the Floral Sidewinder Passive Talent."
+        }
+      ]
+    },
+    {
+      "name": "Scent of Summer",
+      "icon": "data:,",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Floral Brush by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Gift of the Woods",
+      "icon": "data:,",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Using Trump-Card Kitty will increase all nearby characters' Elemental Mastery by 60 for 12s (not including Collei herself)."
+        }
+      ]
+    },
+    {
+      "name": "All Embers",
+      "icon": "data:,",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Trump-Card Kitty by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Forest of Falling Arrows",
+      "icon": "data:,",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the Floral Ring hits opponents, it will create a miniature Cuilein-Anbar that will deal 200% of Collei's ATK as Dendro DMG."
+        },
+        {
+          "text": "Each Floral Brush can only create one such miniature Cuilein-Anbar."
+        }
+      ]
+    }
+  ]
+}

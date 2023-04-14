@@ -1,0 +1,206 @@
+{
+  "name": "Ganyu",
+  "element": "cryo",
+  "icon": "/img/ganyu/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 5,
+  "portrait": "/img/ganyu/portrait.webp",
+  "id": "ganyu",
+  "talents": [
+    {
+      "name": "Liutian Archery",
+      "icon": "/img/ganyu/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 6 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG. While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired."
+        },
+        {
+          "text": "Has different effects based on how long the energy has been charged"
+        },
+        {
+          "text": "Charge Level 1"
+        },
+        {
+          "text": "Fires off an icy arrow that deals Cryo DMG."
+        },
+        {
+          "text": "Charge Level 2"
+        },
+        {
+          "text": "Fires off a Frostflake Arrow that deals Cryo DMG."
+        },
+        {
+          "text": "The Frostflake Arrow blooms after hitting its target, dealing AoE Cryo DMG."
+        }
+      ]
+    },
+    {
+      "name": "Trail of the Qilin",
+      "icon": "/img/ganyu/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing AoE Cryo DMG."
+        },
+        {
+          "text": "The Ice Lotus continuously taunts surrounding opponents, attracting them to attack it. Its endurance scales based on Ganyu's Max HP, and it blooms profusely when destroyed or once its duration ends, dealing AoE Cryo DMG."
+        }
+      ]
+    },
+    {
+      "name": "Celestial Shower",
+      "icon": "/img/ganyu/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil."
+        },
+        {
+          "text": "While active, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within its AoE and dealing Cryo DMG."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Undivided Heart",
+      "icon": "/img/ganyu/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s."
+        }
+      ]
+    },
+    {
+      "name": "Harmony between Heaven and Earth",
+      "icon": "/img/ganyu/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Celestial Shower grants a 20% Cryo DMG Bonus to active members in the AoE."
+        }
+      ]
+    },
+    {
+      "name": "Preserved for the Hunt",
+      "icon": "/img/ganyu/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Refunds 15% of the ores used when crafting Bow-type weapons."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Dew-Drinker",
+      "icon": "/img/ganyu/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' Cryo RES by 15% for 6s."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "A hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target."
+        }
+      ]
+    },
+    {
+      "name": "The Auspicious",
+      "icon": "/img/ganyu/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Trail of the Qilin gains 1 additional charge."
+        }
+      ]
+    },
+    {
+      "name": "Cloud-Strider",
+      "icon": "/img/ganyu/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Celestial Shower by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Westward Sojourn",
+      "icon": "/img/ganyu/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Opponents standing within the AoE of Celestial Shower take increased DMG. This effect strengthens over time. Increased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%."
+        },
+        {
+          "text": "The effect lingers for 3s after the opponent leaves the AoE."
+        }
+      ]
+    },
+    {
+      "name": "The Merciful",
+      "icon": "/img/ganyu/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Trail of the Qilin by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "The Clement",
+      "icon": "/img/ganyu/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Using Trail of the Qilin causes the next Frostflake Arrow shot within 30s to not require charging."
+        }
+      ]
+    }
+  ]
+}

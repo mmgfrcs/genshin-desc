@@ -1,0 +1,263 @@
+{
+  "name": "Razor",
+  "element": "electro",
+  "icon": "/img/razor/icon-big.webp",
+  "weapon": "CLAYMORE",
+  "rarity": 4,
+  "portrait": "/img/razor/portrait.webp",
+  "id": "razor",
+  "talents": [
+    {
+      "name": "Steel Fang",
+      "icon": "/img/razor/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 4 consecutive strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Drains Stamina over time to perform continuous swirling attacks against all nearby enemies."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "At end of the sequence, perform a more powerful slash."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Claw and Thunder",
+      "icon": "/img/razor/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Hunts his prey using the techniques taught to him by his master and his Lupical."
+        },
+        {
+          "text": "Press"
+        },
+        {
+          "text": "Swings the Thunder Wolf Claw, dealing Electro DMG to enemies in front of Razor."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Upon striking an enemy, Razor will gain an Electro Sigil, which increases his Energy Recharge rate."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration."
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Each Electro Sigil cleared in this manner will be converted into Energy for Razor."
+        }
+      ]
+    },
+    {
+      "name": "Lightning Fang",
+      "icon": "/img/razor/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Summons the Wolf Within which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The Wolf Within will fight alongside Razor for the skill's duration."
+        },
+        {
+          "text": "The Wolf Within"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Strikes alongside Razor's normal attacks, dealing Electro DMG."
+        },
+        {
+          "text": "Raises Razor's ATK SPD and Electro RES."
+        },
+        {
+          "text": "Causes Razor to be immune to DMG inflicted by the Electro-Charged status."
+        },
+        {
+          "text": "Disables Razor's Charged Attacks."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "The effects end when Razor leaves the battlefield."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Awakening",
+      "icon": "/img/razor/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases Claw and Thunder's CD by 18%."
+        },
+        {
+          "text": "Using Lightning Fang resets the CD of Claw and Thunder."
+        }
+      ]
+    },
+    {
+      "name": "Hunger",
+      "icon": "/img/razor/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
+        }
+      ]
+    },
+    {
+      "name": "Wolvensprint",
+      "icon": "/img/razor/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases all party member's sprinting Stamina Consumption by 20%."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Wolf's Instinct",
+      "icon": "/img/razor/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Suppression",
+      "icon": "/img/razor/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases CRIT Rate against enemies with less than 30% HP by 10%."
+        }
+      ]
+    },
+    {
+      "name": "Soul Companion",
+      "icon": "/img/razor/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Lightning Fang by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Bite",
+      "icon": "/img/razor/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When casting Claw and Thunder (Press), enemies hit will have their DEF decreased by 15% for 7s."
+        }
+      ]
+    },
+    {
+      "name": "Sharpened Claws",
+      "icon": "/img/razor/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Claw and Thunder by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Lupus Fulguris",
+      "icon": "/img/razor/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG."
+        },
+        {
+          "text": "When Razor is not using Lightning Fang, a lightning strike on an enemy will grant Razor an Electro Sigil for Claw and Thunder."
+        }
+      ]
+    }
+  ]
+}

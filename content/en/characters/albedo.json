@@ -1,0 +1,330 @@
+{
+  "id": "albedo",
+  "name": "Albedo",
+  "icon": "/img/albedo/icon-big.webp",
+  "portrait": "/img/albedo/portrait.webp",
+  "rarity": 5,
+  "weapon": "SWORD",
+  "element": "geo",
+  "talents": [
+    {
+      "type": "normal",
+      "icon": "/img/albedo/talent-na.webp",
+      "name": "Favonius Bladework - Weiss",
+      "images": [],
+      "description": [
+        {
+          "text": "Normal Attack",
+          "style": "subtitle"
+        },
+        {
+          "text": "Deal Physical DMG to an enemy. Has a 5 hit combo."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Charged Attack",
+          "style": "subtitle"
+        },
+        {
+          "text": "Unleash 2 rapid sword strikes after a small delay. Uses Stamina."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Plunging Attack",
+          "style": "subtitle"
+        },
+        {
+          "text": "Drop to the ground below, dealing Physical DMG on its way, and deal AoE Physical DMG upon impact."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 5 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash 2 rapid sword strikes."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "type": "skill",
+      "icon": "/img/albedo/talent-skill.webp",
+      "name": "Abiogenesis: Solar Isotoma",
+      "images": [],
+      "description": [
+        {
+          "text": "Press",
+          "style": "subtitle"
+        },
+        {
+          "text": "Summons a Solar Isotoma in front. Deals AoE Geo DMG on appearance."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Solar Isotoma",
+          "style": "subtitle"
+        },
+        {
+          "text": " - Enemies within its range take AoE Geo DMG, scaled off Albedo's DEF, when they take damage. This effect can only happen once every 2 seconds"
+        },
+        {
+          "text": " - Spawns a platform and lift players up a certain height when they stand on it. Only one such platform may exist at a time."
+        },
+        {
+          "text": " - Regarded as a Geo Construct."
+        },
+        {
+          "text": " - Only one created by Albedo himself can exist at a time."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance."
+        },
+        {
+          "text": "Solar Isotoma"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When enemies within the Solar Isotoma zone are hit, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF."
+        },
+        {
+          "text": "Transient Blossoms can only be generated once every 2s."
+        },
+        {
+          "text": "When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time."
+        },
+        {
+          "text": "Solar Isotoma is considered a Geo construct."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Hold to designate the location of the skill."
+        }
+      ]
+    },
+    {
+      "type": "burst",
+      "icon": "/img/albedo/talent-burst.webp",
+      "name": "Rite of Progeniture: Tectonic Tide",
+      "images": [],
+      "description": [
+        {
+          "text": "Deal initial AoE Geo DMG to all enemies in front. When a Solar Isotoma is on the field, all enemies within its area will take extra AoE Geo DMG."
+        },
+        {
+          "text": "Damage from this Burst will not trigger Solar Isotoma's effect."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him."
+        },
+        {
+          "text": "If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG"
+        },
+        {
+          "text": "Tecotonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "type": "asc1",
+      "icon": "/img/albedo/talent-passive-0.webp",
+      "name": "Calcite Might",
+      "description": [
+        {
+          "text": "Solar Isotoma's effect deal 25% more DMG to opponents whose HP is below 50%."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to enemies whose HP is below 50%."
+        }
+      ]
+    },
+    {
+      "type": "asc2",
+      "icon": "/img/albedo/talent-passive-1.webp",
+      "name": "Homuncular Nature",
+      "description": [
+        {
+          "text": "Using Elemental Burst increases the Elemental Mastery of nearby party members by 125 for 10s."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s."
+        }
+      ]
+    },
+    {
+      "type": "utility",
+      "icon": "/img/albedo/talent-passive-2.webp",
+      "name": "Flash of Genius",
+      "description": [
+        {
+          "text": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "level": 1,
+      "icon": "/img/albedo/constellation-1.webp",
+      "name": "Flower of Eden",
+      "description": [
+        {
+          "text": "Solar Isotoma's effect regenerate 1.2 Energy for Albedo when triggered."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "icon": "/img/albedo/constellation-2.webp",
+      "name": "Opening of Phanerozoic",
+      "description": [
+        {
+          "text": "Solar Isotoma's effect grant Albedo one stack of Fatal Reckoning for 30s when triggered."
+        },
+        {
+          "text": "Fatal Reckoning",
+          "style": "subtitle"
+        },
+        {
+          "text": " - Can be stacked for up to 4 times"
+        },
+        {
+          "text": " - Activating Elemental Burst consumes all stacks, increasing its initial and extra damage by 30% of DEF for each stack consumed."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Each stack of Fatal Reckoning increases DMG by of Albedo's DEF."
+        },
+        {
+          "text": "The effect stacks up to 4 times."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning, increasing the DMG dealt by the Tectonic Tide and Fatal Blossoms based on the number of stacks consumed."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "icon": "/img/albedo/constellation-3.webp",
+      "name": "Grace of Helios",
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Abiogenesis: Solar Isotoma by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "icon": "/img/albedo/constellation-4.webp",
+      "name": "Descent of Divinity",
+      "description": [
+        {
+          "text": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Solar Isotoma increases Plunging Attack DMG by 30% for active party members within the AoE."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "icon": "/img/albedo/constellation-5.webp",
+      "name": "Tide of Hadaen",
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Rite of Progeniture: Tectonic Tide by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "icon": "/img/albedo/constellation-6.webp",
+      "name": "Dust of Purification",
+      "description": [
+        {
+          "text": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "If active party members within the AoE are protected by a shield created by Crystallize, Solar Isotoma increases their DMG by 17%."
+        }
+      ]
+    }
+  ]
+}

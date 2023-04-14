@@ -1,0 +1,212 @@
+{
+  "name": "Yoimiya",
+  "element": "pyro",
+  "icon": "/img/yoimiya/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 5,
+  "portrait": "/img/yoimiya/portrait.webp",
+  "id": "yoimiya",
+  "talents": [
+    {
+      "name": "Firework Flare-Up",
+      "icon": "/img/yoimiya/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack:"
+        },
+        {
+          "text": "Performs up to 5 consecutive shots with a bow."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Charged Attack:"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:"
+        },
+        {
+          "text": "Charge Level 1: Fires off a flaming arrow that deals Pyro DMG."
+        },
+        {
+          "text": "Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Plunging Attack:"
+        },
+        {
+          "text": "Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Niwabi Fire-Dance",
+      "icon": "/img/yoimiya/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her."
+        },
+        {
+          "text": "Niwabi Enshou: During this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to Pyro DMG. during this time, Firework Flare-Up will not generate Kindling Arrows at Charge Level 2."
+        },
+        {
+          "text": "This effect will deactivate when Yoimiya leaves the field."
+        }
+      ]
+    },
+    {
+      "name": "Ryuukin Saxifrage",
+      "icon": "/img/yoimiya/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal AoE Pyro DMG and mark one of the hit opponents with Aurous Blaze."
+        },
+        {
+          "text": "Aurous Blaze: All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing AoE Pyro DMG."
+        },
+        {
+          "text": "When an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration."
+        },
+        {
+          "text": "One Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Tricks of the Trouble-Maker",
+      "icon": "/img/yoimiya/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "During Niwabi Fire-Dance, shots from Yoimiya's Normal Attack will increase her Pyro DMG Bonus by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks."
+        }
+      ]
+    },
+    {
+      "name": "Summer Night's Dawn",
+      "icon": "/img/yoimiya/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Using Ryuukin Saxifrage causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using Ryuukin Saxifrage. Each stack increases this ATK Bonus by 1%."
+        }
+      ]
+    },
+    {
+      "name": "Blazing Match",
+      "icon": "/img/yoimiya/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Agate Ryuukin",
+      "icon": "/img/yoimiya/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The Aurous Blaze created by Ryuukin Saxifrage lasts for an extra 4s."
+        },
+        {
+          "text": "Additionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s."
+        }
+      ]
+    },
+    {
+      "name": "A Procession of Bonfires",
+      "icon": "/img/yoimiya/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Yoimiya's Pyro DMG scores a CRIT Hit, Yoimiya will gain a 25% Pyro DMG Bonus for 6s."
+        },
+        {
+          "text": "This effect can be triggered even when Yoimiya is not the active character."
+        }
+      ]
+    },
+    {
+      "name": "Trickster's Flare",
+      "icon": "/img/yoimiya/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Niwabi Fire-Dance by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Pyrotechnic Professional",
+      "icon": "/img/yoimiya/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Yoimiya's own Aurous Blaze triggers an explosion, Niwabi Fire-Dance's CD is decreased by 1.2."
+        }
+      ]
+    },
+    {
+      "name": "A Summer Festival's Eve",
+      "icon": "/img/yoimiya/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Ryuukin Saxifrage by 3. Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Naganohara Meteor Swarm",
+      "icon": "/img/yoimiya/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing an extra Kindling Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG."
+        }
+      ]
+    }
+  ]
+}

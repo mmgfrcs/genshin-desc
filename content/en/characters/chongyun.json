@@ -1,0 +1,209 @@
+{
+  "name": "Chongyun",
+  "element": "cryo",
+  "icon": "/img/chongyun/icon-big.webp",
+  "weapon": "CLAYMORE",
+  "rarity": 4,
+  "portrait": "/img/chongyun/portrait.webp",
+  "id": "chongyun",
+  "talents": [
+    {
+      "name": "Demonbane",
+      "icon": "/img/chongyun/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Performs up to 4 consecutive strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Drains Stamina over time to perform continuous swirling attacks against all nearby enemies."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "At end of the sequence, perform a more powerful slash."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Spirit Blade - Chonghua's Layered Frost",
+      "icon": "/img/chongyun/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals Cryo DMG."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "After a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all DMG done through Normal and Charged Attacks by Sword, Greatsword and Polearm-wielding characters will be converted to Cryo DMG."
+        }
+      ]
+    },
+    {
+      "name": "Spirit Blade - Cloud-parting Star",
+      "icon": "/img/chongyun/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "When the spirit blades explode, they will deal AoE Cryo DMG and launch enemies."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Steady Breathing",
+      "icon": "/img/chongyun/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Sword, Claymore, or Polearm-wielding characters within the field created by Spirit Blade - Chonghua's Layered Frost have their Normal Attack SPD increased by 8%."
+        }
+      ]
+    },
+    {
+      "name": "Rimechaser Blade",
+      "icon": "/img/chongyun/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When the field created by Spirit Blade - Chonghua's Layered Frost disappears, another spirit will be summoned to strike nearby enemies, dealing 100% of Chonghua's Layered Frost's Skill DMG as AoE Cryo DMG. Enemies hit by this blade will have their Cryo RES decreased by 10% for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Gallant Journey",
+      "icon": "/img/chongyun/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Ice Unleashed",
+      "icon": "/img/chongyun/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all enemies in its path."
+        }
+      ]
+    },
+    {
+      "name": "Atmospheric Revolution",
+      "icon": "/img/chongyun/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade - Chongyun's Layered Frost have their CD time decreased by 15%."
+        }
+      ]
+    },
+    {
+      "name": "Cloudburst",
+      "icon": "/img/chongyun/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Spirit Blade - Cloud-parting Star by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Frozen Skies",
+      "icon": "/img/chongyun/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Chongyun regenerates 1 Energy every time he hits an enemy affected by Cold or Frozen status effects."
+        },
+        {
+          "text": "This effect can only occur once every 2s."
+        }
+      ]
+    },
+    {
+      "name": "The True Path",
+      "icon": "/img/chongyun/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the level of Spirit Blade - Chongyun's Layered Frost by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Rally of Four Blades",
+      "icon": "/img/chongyun/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Spirit Blade - Cloud-parting Star deals 15% more DMG to enemies with a lower percentage of their Max HP remaining than Chongyun."
+        },
+        {
+          "text": "This skill will also summon 1 additional spirt blade."
+        }
+      ]
+    }
+  ]
+}

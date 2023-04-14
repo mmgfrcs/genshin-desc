@@ -1,0 +1,236 @@
+{
+  "name": "Bennett",
+  "element": "pyro",
+  "icon": "/img/bennett/icon-big.webp",
+  "weapon": "SWORD",
+  "rarity": 4,
+  "portrait": "/img/bennett/portrait.webp",
+  "id": "bennett",
+  "talents": [
+    {
+      "name": "Strike of Fortune",
+      "icon": "/img/bennett/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 5 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Consumes a certain amount of Stamina to unleash 2 rapid sword swings."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Passion Overload",
+      "icon": "/img/bennett/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Bennett puts all his fire and passion for adventuring into his sword. Results may very based on how fired up he is."
+        },
+        {
+          "text": "Press"
+        },
+        {
+          "text": "A single, swift flame strike that deals Pyro DMG."
+        },
+        {
+          "text": "Hold (Short)"
+        },
+        {
+          "text": "Charges up, resulting in different effects when unleashed based on the Charge Level."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Level 1: Strikes twice, dealing Pyro DMG and launching enemies."
+        },
+        {
+          "text": "Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Bennett takes no damage from being launched."
+        }
+      ]
+    },
+    {
+      "name": "Fantastic Voyage",
+      "icon": "/img/bennett/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Bennett leaps towards the enemy and performs a plunging attack, dealing Pyro DMG, creating an Inspiration Field."
+        },
+        {
+          "text": "Inspiration Field"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "If the health of a character in the circle is equal to or falls below 70%, their health will continuously regenerate. Regeneration scales based on Bennett's Max HP."
+        },
+        {
+          "text": "If the health of a character in the circle is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK."
+        },
+        {
+          "text": "Applies the Pyro element to characters within the Field."
+        },
+        {
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Rekindle",
+      "icon": "/img/bennett/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases Passion Overload's CD by 20%."
+        }
+      ]
+    },
+    {
+      "name": "Fearnaught",
+      "icon": "/img/bennett/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When inside the area created by Fantastic Voyage, Passion Overload takes on the following effects:"
+        },
+        {
+          "text": "CD is reduced by 50%."
+        },
+        {
+          "text": "Bennett will not be launched by the effects of Charge Level 2."
+        }
+      ]
+    },
+    {
+      "name": "It Should Be Safe...",
+      "icon": "/img/bennett/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Grand Expectation",
+      "icon": "/img/bennett/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Fantastic Voyage's ATK increases no longer has an HP restriction, and gains an additional 20% Base ATK."
+        }
+      ]
+    },
+    {
+      "name": "Impasse Conqueror",
+      "icon": "/img/bennett/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%."
+        }
+      ]
+    },
+    {
+      "name": "Unstoppable Fervor",
+      "icon": "/img/bennett/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Passion Overload by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Unexpected Odyssey",
+      "icon": "/img/bennett/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Using a Normal Attack when executing the second attack of Passion Overload's Charge Level 1 allows an additional attack to be performed. This additional attack does 135% of the second attack's DMG."
+        }
+      ]
+    },
+    {
+      "name": "True Explorer",
+      "icon": "/img/bennett/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Fantastic Voyage by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Fire Ventures with Me",
+      "icon": "/img/bennett/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus. Normal and Charged Attacks now do Pyro DMG."
+        }
+      ]
+    }
+  ]
+}

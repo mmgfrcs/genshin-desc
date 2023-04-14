@@ -1,0 +1,254 @@
+{
+  "name": "Gorou",
+  "element": "geo",
+  "icon": "/img/gorou/icon-big.webp",
+  "weapon": "BOW",
+  "rarity": 4,
+  "portrait": "/img/gorou/portrait.webp",
+  "id": "gorou",
+  "talents": [
+    {
+      "name": "Ripping Fang Fletching",
+      "icon": "data:,",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 4 consecutive shots with a bow."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Perform a more precise Aimed Shot with increased DMG."
+        },
+        {
+          "text": "While aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG."
+        },
+        {
+          "text": "Plunging Attack"
+        },
+        {
+          "text": "Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
+        }
+      ]
+    },
+    {
+      "name": "Inuzaka All-Round Defense",
+      "icon": "data:,",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Deals AoE Geo DMG and sets up a General's War Banner."
+        },
+        {
+          "text": "General's War Banner"
+        },
+        {
+          "text": "Provides up to 3 buffs to active characters within the skill's AoE based on the number of Geo characters in the party at the time of casting:"
+        },
+        {
+          "text": "- 1 Geo character: Adds \"Standing Firm\" - DEF Bonus."
+        },
+        {
+          "text": "- 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption."
+        },
+        {
+          "text": "- 3 Geo characters: Adds \"Crunch\" - Geo DMG Bonus."
+        },
+        {
+          "text": "Gorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s."
+        },
+        {
+          "text": "Hold"
+        },
+        {
+          "text": "Adjust the location of the skill."
+        }
+      ]
+    },
+    {
+      "name": "Juuga: Forward Unto Victory",
+      "icon": "data:,",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Displaying his valor as a general, Gorou deals AoE Geo DMG and creates a field known as General's Glory to embolden his comrades."
+        },
+        {
+          "text": "General's Glory"
+        },
+        {
+          "text": "This field has the following properties:"
+        },
+        {
+          "text": "- Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of Geo characters in the party. Also moves together with your active character."
+        },
+        {
+          "text": "- Generates 1 Crystal Collapse every 1.5s that deals AoE Geo DMG to 1 opponent within the skill's AoE."
+        },
+        {
+          "text": "- Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions)."
+        },
+        {
+          "text": "If a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner."
+        },
+        {
+          "text": "If Gorou falls, the effects of General's Glory will be cleared."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Seeker of Shinies",
+      "icon": "/img/gorou/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Displays the location of nearby resources unique to Inazuma on the mini-map."
+        }
+      ]
+    },
+    {
+      "name": "Heedless of the Wind and Weather",
+      "icon": "/img/gorou/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "After using Juuga: Forward Unto Victory, all nearby party members' DEF is increased by 25% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "A Favor Repaid",
+      "icon": "/img/gorou/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:"
+        },
+        {
+          "text": "- Inuzaka All-Round Defense: Skill DMG increased by 156% of DEF"
+        },
+        {
+          "text": "- Juuga: Forward Unto Victory: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF"
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Rushing Hound: Swift as the Wind",
+      "icon": "/img/gorou/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When characters (other than Gorou) within the AoE of Gorou's General's War Banner or General's Glory deal Geo DMG to opponents, the CD of Gorou's Inuzaka All-Round Defense is decreased by 2s."
+        },
+        {
+          "text": "This effect can occur once every 10s."
+        }
+      ]
+    },
+    {
+      "name": "Sitting Hound: Steady as a Clock",
+      "icon": "/img/gorou/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "While General's Glory is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction."
+        },
+        {
+          "text": "This effect can occur once every 0.1s. Max extension is 3s."
+        }
+      ]
+    },
+    {
+      "name": "Mauling Hound: Fierce as Fire",
+      "icon": "/img/gorou/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Inuzaka All-Round Defense by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Lapping Hound: Warm as Water",
+      "icon": "/img/gorou/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When General's Glory is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s."
+        }
+      ]
+    },
+    {
+      "name": "Striking Hound: Thunderous Force",
+      "icon": "/img/gorou/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Juuga: Forward Unto Victory by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Valiant Hound: Mountainous Fealty",
+      "icon": "/img/gorou/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "For 12s after using Inuzaka All-Round Defense or Juuga: Forward Unto Victory, increases the CRIT DMG of all nearby party members' Geo DMG based on the buff level of the skill's field at the time of use:"
+        },
+        {
+          "text": "- \"Standing Firm\": +10%"
+        },
+        {
+          "text": "- \"Impregnable\": +20%"
+        },
+        {
+          "text": "- \"Crunch\": +40%"
+        },
+        {
+          "text": "This effect cannot stack and will take reference from the last instance of the effect that is triggered."
+        }
+      ]
+    }
+  ]
+}

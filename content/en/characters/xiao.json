@@ -1,0 +1,191 @@
+{
+  "name": "Xiao",
+  "element": "anemo",
+  "icon": "/img/xiao/icon-big.webp",
+  "weapon": "POLEARM",
+  "rarity": 5,
+  "portrait": "/img/xiao/portrait.webp",
+  "id": "xiao",
+  "talents": [
+    {
+      "name": "Whirlwind Thrust",
+      "icon": "/img/xiao/talent-na.webp",
+      "type": "normal",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Normal Attack"
+        },
+        {
+          "text": "Perform up to 6 rapid strikes."
+        },
+        {
+          "text": "Charged Attack"
+        },
+        {
+          "text": "Dive down and impact the ground, causing damage relative to the falling height. Can only be triggered in mid-air."
+        }
+      ]
+    },
+    {
+      "name": "Lemniscatic Wind Cycling",
+      "icon": "/img/xiao/talent-skill.webp",
+      "type": "skill",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "He lunges forward, dealing Anemo DMG to enemies along the path."
+        },
+        {
+          "text": "Can be used in mid-air."
+        },
+        {
+          "text": "Has 2 charges to begin with."
+        }
+      ]
+    },
+    {
+      "name": "Bane of All Evil",
+      "icon": "/img/xiao/talent-burst.webp",
+      "type": "burst",
+      "description": [],
+      "images": [],
+      "originalDescription": [
+        {
+          "text": "Takes on the form of the yaksha that terrified both demons and archons alike millennia ago. For its duration, increases Xiao's attack range and DMG, while converting damage type to Anemo and enhancing Xiao's jumping ability."
+        },
+        {
+          "text": "Maintaining this form continuously drains Xiao's HP."
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "name": "Evil Conqueror - Tamer of Demons",
+      "icon": "/img/xiao/talent-passive-0.webp",
+      "type": "asc1",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Starting Bane of All Evil increases Xiao's DMG by 5%. After this, Xiao's DMG continues to increase by 5% every 3s until the skill ends. Max 25% increase."
+        }
+      ]
+    },
+    {
+      "name": "Dissolution Eon - Heaven Fall",
+      "icon": "/img/xiao/talent-passive-1.webp",
+      "type": "asc2",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Lemniscatic Wind Cycling is used, increases all subsequent Lemniscatic Wind Cycling's DMG by 10% for 6s. Max 3 stacks. Duration refreshes with new stacks."
+        }
+      ]
+    },
+    {
+      "name": "Transcension - Gravity Defier",
+      "icon": "/img/xiao/talent-passive-2.webp",
+      "type": "utility",
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Decreases all party member's falling DMG by 30%."
+        },
+        {
+          "text": "The greatest effect out of all Talents of the same type prevails."
+        }
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Dissolution Eon - Destroyer of Worlds",
+      "icon": "/img/xiao/constellation-1.webp",
+      "level": 1,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "Increases Lemniscatic Wind Cycling's charges by 1."
+        }
+      ]
+    },
+    {
+      "name": "Annihilation Eon - Blossom of Kaleidos",
+      "icon": "/img/xiao/constellation-2.webp",
+      "level": 2,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When in party but not the currently active character, Xiao's Energy Recharge is increased by 25%."
+        }
+      ]
+    },
+    {
+      "name": "Evil Conqueror - Wrath Deity",
+      "icon": "/img/xiao/constellation-3.webp",
+      "level": 3,
+      "description": [
+        {
+          "text": "Increases Elemental Burst's level by 3."
+        },
+        {
+          "text": "Increases Elemental Burst's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increases the Level of Lemniscatic Wind Cycling by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Transcension - Extinction of Suffering",
+      "icon": "/img/xiao/constellation-4.webp",
+      "level": 4,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "When Xiao's HP falls below 50%, gains a 100% DEF Bonus."
+        }
+      ]
+    },
+    {
+      "name": "Evolution Eon - Origin of Ignorance",
+      "icon": "/img/xiao/constellation-5.webp",
+      "level": 5,
+      "description": [
+        {
+          "text": "Increases Elemental Skill's level by 3."
+        },
+        {
+          "text": "Increases Elemental Skill's max level by 5 (to 15)."
+        }
+      ],
+      "originalDescription": [
+        {
+          "text": "Increase the Level of Bane of All Evil by 3."
+        },
+        {
+          "text": "Maximum upgrade level is 15."
+        }
+      ]
+    },
+    {
+      "name": "Evil Conqueror - Vigilant Yaksha",
+      "icon": "/img/xiao/constellation-6.webp",
+      "level": 6,
+      "description": [],
+      "originalDescription": [
+        {
+          "text": "During Bane of All Evil, hitting 2 or more enemies with a Charged Attack grants Lemniscatic Wind Cycling 1 additional charge and reduces Lemniscatic Wind Cycling's CD by 1s."
+        }
+      ]
+    }
+  ]
+}
