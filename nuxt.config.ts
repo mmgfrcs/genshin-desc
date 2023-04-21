@@ -12,11 +12,9 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-icon',
     '@nuxtjs/i18n',
-    `@nuxtjs/google-fonts`
+    `@nuxtjs/google-fonts`,
+    '@kevinmarrec/nuxt-pwa'
   ],
-  nitro: {
-    preset: 'service-worker'
-  },
   content: {
     locales: ["en", "id"]
   },
@@ -48,5 +46,10 @@ export default defineNuxtConfig({
   },
   image: {
     provider: 'ipx'
+  },
+  pwa: {
+    workbox: {
+      offline: true
+    }
   }
 })
