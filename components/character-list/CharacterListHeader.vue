@@ -37,7 +37,10 @@ import {Character} from '~/src/models/character'
 export default {
   name: "CharacterListHeader",
   props: {
-    charData: Object as PropType<Character>,
+    charData: {
+      type: Object as PropType<Character>,
+      required: true
+    },
     expandMode: Boolean
   },
   methods: {

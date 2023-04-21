@@ -12,7 +12,10 @@ import {GenshinDescription} from "~/src/models/character";
 export default {
   name: "DescriptionTicker",
   props: {
-    description: Object as PropType<GenshinDescription>
+    description: {
+      type: Object as PropType<GenshinDescription>,
+      required: true
+    }
   }
 }
 </script>
