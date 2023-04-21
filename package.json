@@ -10,7 +10,8 @@
     "postinstall": "nuxt prepare",
     "strapi": "npm run develop --prefix cms",
     "strapi:export": "npm run strapi export --prefix cms -- --no-encrypt --exclude config",
-    "strapi:export-all": "npm run strapi export --prefix cms -- --no-encrypt"
+    "strapi:export-all": "npm run strapi export --prefix cms -- --no-encrypt",
+    "release": "commit-and-tag-version"
   },
   "devDependencies": {
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
