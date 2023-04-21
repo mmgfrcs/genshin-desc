@@ -33,7 +33,7 @@
 
 <script lang="ts">
 import Vue, {PropType} from 'vue'
-import {Character} from '~/_nuxt2/src/models/character'
+import {Character} from '~/src/models/character'
 export default {
   name: "CharacterListHeader",
   props: {
