@@ -98,7 +98,7 @@
     <TransitionGroup name="charlist" tag="div" class="transition-all flex flex-col gap-4">
       <CharacterList v-for="data in charDatas" :key="data.id" :char-data="data" :desc-mode="descMode" />
     </TransitionGroup>
-    <p class="text-gray-400">Version {{version.version}} • <a target="_blank" class="hover:text-blue-600 hover:underline" :href="`https://github.com/genshindev/api/commit/${version.remoteSha}`">{{version.remoteSha}}</a>, last updated {{formatDate(version.remoteLastUpdate)}}</p>
+    <p class="text-gray-400">Version {{version?.version || "Unknown"}} • <a target="_blank" class="hover:text-blue-600 hover:underline" :href="`https://github.com/genshindev/api/commit/${version?.remoteSha || 'latest'}`">{{version?.remoteSha ?? "-"}}</a>, last updated {{formatDate(version?.remoteLastUpdate || "Unknown")}}</p>
   </div>
 </template>
 
@@ -124,7 +124,7 @@ const formatDate = function (date: string) {
 
 const refreshChars = async function() {
   if(process.server)
-  await refresh()
+    await refresh()
   else if (charDatas.value !== null) {
     if (origCharData.length === 0) origCharData = charDatas.value
     else charDatas.value = origCharData
