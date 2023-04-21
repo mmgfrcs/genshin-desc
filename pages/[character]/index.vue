@@ -1,5 +1,5 @@
 <template>
-  <div class="flex grow flex-col">
+  <div v-if="charData" class="flex grow flex-col">
     <!-- The Top Panel -->
     <div class="relative z-0 self-end w-full h-screen bg-opacity-20" :class="{
       'bg-rose-900': charData.element === 'pyro',
@@ -10,8 +10,11 @@
       'bg-teal-900': charData.element === 'anemo',
       'bg-green-900': charData.element === 'dendro'
     }">
-      <nuxt-img class="absolute top-0 left-0 bottom-0 right-0 opacity-20 w-full h-screen object-cover" width="3840" height="2160" src="/img/amber/Explosive_Puppet_Hold_Preview.gif" loading="lazy" />
-      <nuxt-img class="inline-block absolute bottom-0 right-8" width="800" height="1200" :modifiers="{ position: 'top' }" :src="charData.portrait" loading="lazy" />
+      <div class="p-4">
+        <button type="button" class="cursor-pointer" @click="$router.back()">&lt; Back</button>
+      </div>
+      <nuxt-img class="absolute top-0 left-0 bottom-0 right-0 opacity-20 w-full h-screen object-cover -z-10" width="3840" height="2160" src="/img/amber/Explosive_Puppet_Hold_Preview.gif" loading="lazy" />
+      <nuxt-img class="inline-block absolute top-0 right-8 h-screen object-cover object-top" width="800" height="1200" :modifiers="{ position: 'top' }" :src="charData.portrait" loading="lazy" />
       <div class="absolute bottom-0 p-8 pt-32 w-full bg-gradient-to-t from-gray-900 via-gray-900 via-40% to-transparent">
         <h1 class="text-4xl mb-4">{{charData.name}} <nuxt-img v-for="n in charData.rarity" :key="`rarity${n}`" :alt="`rarity star icon`" src="/img/icons/round-star.svg" width="40" height="40" placeholder class="inline" loading="lazy"/></h1>
         <h2 class="text-2xl">
@@ -113,7 +116,7 @@ const i18n = useI18n()
 
 const {$utilities} = useNuxtApp()
 
-const {data: charData} = await useAsyncData('character', ctx => queryContent<Character>(`/characters/${route.params.character}`).locale(i18n.locale.value).findOne())
+const {data: charData} = await useAsyncData(route.params.character + "-data", ctx => queryContent<Character>(`/characters/${route.params.character}`).locale(i18n.locale.value).findOne())
 const descMode = ref(true)
 </script>
 
