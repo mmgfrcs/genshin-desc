@@ -1,10 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Genshin Descriptor
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A web app that makes Genshin Impact's character talent, passive, and constellation descriptions more readable.
 
 ## Setup
 
-Make sure to install the dependencies:
+Clone this repo, and install the dependencies:
 
 ```bash
 # yarn
@@ -30,7 +30,7 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+npm run generate
 ```
 
 Locally preview production build:
@@ -39,7 +39,6 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-genshin-desc@example.com
-Genshin-desc1
+<!-- genshin-desc@example.com
+Genshin-desc1 -->

@@ -98,12 +98,15 @@
     <TransitionGroup name="charlist" tag="div" class="transition-all flex flex-col gap-4">
       <CharacterList v-for="data in charDatas" :key="data.id" :char-data="data" :desc-mode="descMode" />
     </TransitionGroup>
-    <p class="text-gray-400">Version {{version.version}} • <a target="_blank" class="hover:text-blue-600 hover:underline" :href="`https://github.com/genshindev/api/commit/${version.remoteSha}`">{{version.remoteSha}}</a>, last updated {{formatDate(version.remoteLastUpdate)}}</p>
+    <p class="text-gray-400">Version {{version?.version || "Unknown"}} • <a target="_blank" class="hover:text-blue-600 hover:underline" :href="`https://github.com/genshindev/api/commit/${version?.remoteSha || 'latest'}`">{{version?.remoteSha ?? "-"}}</a>, last updated {{formatDate(version?.remoteLastUpdate || "Unknown")}}</p>
   </div>
 </template>
 
 <script setup lang="ts">
 import format from 'date-fns/format'
+import { Character } from '~/src/models/character';
+
+let origCharData: Character[] = []
 
 const i18n = useI18n()
 const descMode = ref(true)
@@ -111,7 +114,7 @@ const searchTerm = ref("")
 const filters = ref<{ [key: string]: {$in: Array<string|number>}; }>({})
 const {data: charDatas, refresh} = await useAsyncData("characters", ctx => {
   let searchTerms = {name: {$regex: `/${searchTerm.value}/ig`}, ...filters.value}
-  return queryContent(`characters`).locale(i18n.locale.value).where(searchTerms).sort({name: 1}).find()
+  return queryContent<Character>(`characters`).locale(i18n.locale.value).where(searchTerms).sort({name: 1}).find()
 })
 const {data: version} = await useAsyncData("version", ctx => { return queryContent('/version').findOne()})
 
@@ -120,7 +123,21 @@ const formatDate = function (date: string) {
 }
 
 const refreshChars = async function() {
-  await refresh()
+  if(process.server)
+    await refresh()
+  else if (charDatas.value !== null) {
+    if (origCharData.length === 0) origCharData = charDatas.value
+    else charDatas.value = origCharData
+
+    charDatas.value = charDatas.value.filter(x=>{
+      let filterName = x.name.toLowerCase().includes(searchTerm.value.toLowerCase())
+      let filterElement = filters.value.element?.$in?.includes(x.element) ?? true
+      let filterWeapon = filters.value.weapon?.$in?.includes(x.weapon) ?? true
+      let filterRarity = filters.value.rarity?.$in?.includes(x.rarity) ?? true
+      console.log(filterName, filterElement, filterWeapon, filterRarity)
+      return filterName && filterElement && filterWeapon && filterRarity
+    })
+  }
 }
 
 const toggleFilter = async function(type: string, value: string|number) {
@@ -133,7 +150,7 @@ const toggleFilter = async function(type: string, value: string|number) {
   }
   else filters.value[type].$in.push(value);
 
-  await refresh()
+  await refreshChars()
 }
 
 </script>

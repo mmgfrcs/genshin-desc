@@ -60,10 +60,9 @@
 </template>
 
 <script setup lang="ts">
-import Vue, { PropType, ref } from 'vue'
-import {Character} from "~/_nuxt2/src/models/character";
+import { ref } from 'vue'
+import {Character} from "~/src/models/character";
 import DescriptionTicker from "~/components/character-list/DescriptionTicker.vue";
-import { useNuxtApp } from '#imports'
 
 const props = defineProps<{
   charData: Character,

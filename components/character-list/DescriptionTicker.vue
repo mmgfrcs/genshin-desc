@@ -7,12 +7,15 @@
 
 <script lang="ts">
 import {PropType} from "vue";
-import {GenshinDescription} from "~/_nuxt2/src/models/character";
+import {GenshinDescription} from "~/src/models/character";
 
 export default {
   name: "DescriptionTicker",
   props: {
-    description: Object as PropType<GenshinDescription>
+    description: {
+      type: Object as PropType<GenshinDescription>,
+      required: true
+    }
   }
 }
 </script>
