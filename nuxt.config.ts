@@ -44,6 +44,9 @@ export default defineNuxtConfig({
       ]
     }
   },
+  image: {
+    provider: process.env.NETLIFY ? "netlify" : "ipx"
+  },
   pwa: {
     workbox: {
       offline: true
