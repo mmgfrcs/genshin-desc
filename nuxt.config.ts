@@ -44,12 +44,12 @@ export default defineNuxtConfig({
       ]
     }
   },
-  image: {
-    provider: 'ipx'
-  },
   pwa: {
     workbox: {
       offline: true
+    },
+    manifest: {
+      name: "Genshin Descriptor"
     }
   }
 })
