@@ -103,7 +103,7 @@
 </template>
 
 <script setup lang="ts">
-import format from 'date-fns/format'
+import {format} from 'date-fns'
 import { Character } from '~/src/models/character';
 
 let origCharData: Character[] = []
