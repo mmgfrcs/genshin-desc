@@ -11,7 +11,8 @@
     "strapi": "npm run develop --prefix cms",
     "strapi:export": "npm run strapi export --prefix cms -- --no-encrypt --exclude config",
     "strapi:export-all": "npm run strapi export --prefix cms -- --no-encrypt",
-    "release": "commit-and-tag-version"
+    "release": "commit-and-tag-version",
+    "schema:generate": "typescript-json-schema --required true --titles true -o ./src/schemas/character.json ./tsconfig.json Character --include ./src/models/*"
   },
   "devDependencies": {
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
@@ -28,7 +29,8 @@
     "floating-vue": "^2.0.0-beta.20",
     "nuxt": "^3.4.1",
     "nuxt-icon": "^0.3.3",
-    "pinia": "^2.0.33"
+    "pinia": "^2.0.33",
+    "typescript-json-schema": "^0.56.0"
   },
   "overrides": {
     "vue": "latest"

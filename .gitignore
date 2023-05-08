@@ -9,3 +9,5 @@ dist
 .DS_Store
 _nuxt2
 .idea
+# Local Netlify folder
+.netlify

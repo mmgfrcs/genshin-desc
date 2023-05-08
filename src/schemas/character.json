@@ -1,198 +1,368 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "definitions": {
-    "Character": {
-      "additionalProperties": false,
-      "properties": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "CharacterConstellation": {
+            "properties": {
+                "description": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "description",
+                    "type": "array"
+                },
+                "icon": {
+                    "title": "icon",
+                    "type": "string"
+                },
+                "level": {
+                    "description": "Constellation level",
+                    "maximum": 6,
+                    "minimum": 1,
+                    "title": "level",
+                    "type": "number"
+                },
+                "name": {
+                    "title": "name",
+                    "type": "string"
+                },
+                "notes": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "notes",
+                    "type": "array"
+                },
+                "originalDescription": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "originalDescription",
+                    "type": "array"
+                },
+                "related": {
+                    "properties": {
+                        "description": {
+                            "items": {
+                                "$ref": "#/definitions/GenshinDescription"
+                            },
+                            "title": "description",
+                            "type": "array"
+                        },
+                        "type": {
+                            "enum": [
+                                "alt",
+                                "asc1",
+                                "asc2",
+                                "burst",
+                                "misc",
+                                "normal",
+                                "skill",
+                                "utility"
+                            ],
+                            "title": "type",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "description",
+                        "type"
+                    ],
+                    "title": "related",
+                    "type": "object"
+                }
+            },
+            "required": [
+                "description",
+                "icon",
+                "level",
+                "name",
+                "notes",
+                "originalDescription"
+            ],
+            "title": "CharacterConstellation",
+            "type": "object"
+        },
+        "CharacterPassive": {
+            "properties": {
+                "description": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "description",
+                    "type": "array"
+                },
+                "icon": {
+                    "title": "icon",
+                    "type": "string"
+                },
+                "name": {
+                    "title": "name",
+                    "type": "string"
+                },
+                "notes": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "notes",
+                    "type": "array"
+                },
+                "originalDescription": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "originalDescription",
+                    "type": "array"
+                },
+                "stats": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinStat"
+                    },
+                    "title": "stats",
+                    "type": "array"
+                },
+                "type": {
+                    "$ref": "#/definitions/GenshinPassiveType",
+                    "title": "type"
+                }
+            },
+            "required": [
+                "description",
+                "icon",
+                "name",
+                "notes",
+                "originalDescription",
+                "stats",
+                "type"
+            ],
+            "title": "CharacterPassive",
+            "type": "object"
+        },
+        "CharacterTalent": {
+            "properties": {
+                "description": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "description",
+                    "type": "array"
+                },
+                "icon": {
+                    "title": "icon",
+                    "type": "string"
+                },
+                "images": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "images",
+                    "type": "array"
+                },
+                "name": {
+                    "title": "name",
+                    "type": "string"
+                },
+                "notes": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "notes",
+                    "type": "array"
+                },
+                "originalDescription": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinDescription"
+                    },
+                    "title": "originalDescription",
+                    "type": "array"
+                },
+                "stats": {
+                    "items": {
+                        "$ref": "#/definitions/GenshinStat"
+                    },
+                    "title": "stats",
+                    "type": "array"
+                },
+                "type": {
+                    "$ref": "#/definitions/GenshinTalentType",
+                    "title": "type"
+                }
+            },
+            "required": [
+                "description",
+                "icon",
+                "images",
+                "name",
+                "notes",
+                "originalDescription",
+                "stats",
+                "type"
+            ],
+            "title": "CharacterTalent",
+            "type": "object"
+        },
+        "GenshinDescription": {
+            "properties": {
+                "style": {
+                    "enum": [
+                        "paragraph",
+                        "subtitle"
+                    ],
+                    "title": "style",
+                    "type": "string"
+                },
+                "text": {
+                    "title": "text",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "text"
+            ],
+            "title": "GenshinDescription",
+            "type": "object"
+        },
+        "GenshinPassiveType": {
+            "enum": [
+                "asc1",
+                "asc2",
+                "misc",
+                "utility"
+            ],
+            "title": "GenshinPassiveType",
+            "type": "string"
+        },
+        "GenshinStat": {
+            "properties": {
+                "key": {
+                    "title": "key",
+                    "type": "string"
+                },
+                "values": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "title": "values",
+                    "type": "array"
+                }
+            },
+            "required": [
+                "key",
+                "values"
+            ],
+            "title": "GenshinStat",
+            "type": "object"
+        },
+        "GenshinTalentType": {
+            "enum": [
+                "alt",
+                "burst",
+                "normal",
+                "skill"
+            ],
+            "title": "GenshinTalentType",
+            "type": "string"
+        },
+        "Lowercase": {
+            "enum": [
+                "anemo",
+                "cryo",
+                "dendro",
+                "electro",
+                "geo",
+                "hydro",
+                "pyro"
+            ],
+            "title": "Lowercase",
+            "type": "string"
+        },
+        "Uppercase": {
+            "enum": [
+                "BOW",
+                "CATALYST",
+                "CLAYMORE",
+                "POLEARM",
+                "SWORD"
+            ],
+            "title": "Uppercase",
+            "type": "string"
+        }
+    },
+    "description": "Genshin Impact's Character definition",
+    "properties": {
         "constellations": {
-          "items": {
-            "$ref": "#/definitions/CharacterConstellation"
-          },
-          "type": "array"
+            "items": {
+                "$ref": "#/definitions/CharacterConstellation"
+            },
+            "title": "constellations",
+            "type": "array"
         },
         "element": {
-          "enum": [
-            "pyro",
-            "cryo",
-            "hydro",
-            "anemo",
-            "geo",
-            "dendro",
-            "electro"
-          ],
-          "type": "string"
+            "$ref": "#/definitions/Lowercase",
+            "title": "element"
         },
         "icon": {
-          "type": "string"
+            "description": "Character Icon to be displayed in the list, alongside name, rarity, weapon and element",
+            "title": "icon",
+            "type": "string"
         },
         "id": {
-          "type": "string"
+            "description": "Character's unique ID. Cannot contain spaces",
+            "pattern": "^[a-z][a-z0-9\\-]*",
+            "title": "id",
+            "type": "string"
         },
         "name": {
-          "type": "string"
+            "description": "Character Name",
+            "title": "name",
+            "type": "string"
         },
         "passives": {
-          "items": {
-            "$ref": "#/definitions/CharacterPassive"
-          },
-          "type": "array"
+            "items": {
+                "$ref": "#/definitions/CharacterPassive"
+            },
+            "title": "passives",
+            "type": "array"
         },
         "portrait": {
-          "type": "string"
+            "title": "portrait",
+            "type": "string"
         },
         "rarity": {
-          "type": "number",
-          "maximum": 5,
-          "minimum": 4
+            "title": "rarity",
+            "type": "number"
+        },
+        "tags": {
+            "items": {
+                "type": "string"
+            },
+            "title": "tags",
+            "type": "array"
         },
         "talents": {
-          "items": {
-            "$ref": "#/definitions/CharacterTalent"
-          },
-          "type": "array"
+            "items": {
+                "$ref": "#/definitions/CharacterTalent"
+            },
+            "title": "talents",
+            "type": "array"
         },
         "weapon": {
-          "enum": [
-            "BOW",
-            "SWORD",
-            "POLEARM",
-            "CLAYMORE",
-            "CATALYST"
-          ],
-          "type": "string"
+            "$ref": "#/definitions/Uppercase",
+            "title": "weapon"
         }
-      },
-      "required": [
+    },
+    "required": [
+        "constellations",
+        "element",
+        "icon",
         "id",
         "name",
-        "icon",
+        "passives",
         "portrait",
         "rarity",
-        "element",
-        "weapon",
+        "tags",
         "talents",
-        "passives",
-        "constellations"
-      ],
-      "type": "object"
-    },
-    "CharacterConstellation": {
-      "additionalProperties": false,
-      "properties": {
-        "description": {
-          "items": {
-            "$ref": "#/definitions/GenshinDescription"
-          },
-          "type": "array"
-        },
-        "icon": {
-          "type": "string"
-        },
-        "level": {
-          "type": "number",
-          "maximum": 6,
-          "minimum": 1
-        },
-        "name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "level",
-        "icon",
-        "name",
-        "description"
-      ],
-      "type": "object"
-    },
-    "CharacterPassive": {
-      "additionalProperties": false,
-      "properties": {
-        "description": {
-          "items": {
-            "$ref": "#/definitions/GenshinDescription"
-          },
-          "type": "array"
-        },
-        "icon": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "type": {
-          "enum": [
-            "asc1",
-            "asc2",
-            "utility",
-            "misc"
-          ],
-          "type": "string"
-        }
-      },
-      "required": [
-        "type",
-        "icon",
-        "name",
-        "description"
-      ],
-      "type": "object"
-    },
-    "CharacterTalent": {
-      "additionalProperties": false,
-      "properties": {
-        "description": {
-          "items": {
-            "$ref": "#/definitions/GenshinDescription"
-          },
-          "type": "array"
-        },
-        "icon": {
-          "type": "string"
-        },
-        "images": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        },
-        "name": {
-          "type": "string"
-        },
-        "type": {
-          "enum": [
-            "normal",
-            "skill",
-            "burst",
-            "alt"
-          ],
-          "type": "string"
-        }
-      },
-      "required": [
-        "type",
-        "icon",
-        "name",
-        "images",
-        "description"
-      ],
-      "type": "object"
-    },
-    "GenshinDescription": {
-      "additionalProperties": false,
-      "properties": {
-        "style": {
-          "const": "subtitle",
-          "type": "string"
-        },
-        "text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "text"
-      ],
-      "type": "object"
-    }
-  }
+        "weapon"
+    ],
+    "type": "object"
 }
+

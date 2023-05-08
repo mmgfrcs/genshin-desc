@@ -45,11 +45,14 @@ export default defineNuxtConfig({
     }
   },
   image: {
-    provider: 'ipx'
+    provider: process.env.NETLIFY ? "netlify" : "ipx"
   },
   pwa: {
     workbox: {
       offline: true
+    },
+    manifest: {
+      name: "Genshin Descriptor"
     }
   }
 })
