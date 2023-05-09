@@ -13,7 +13,7 @@
       <div class="p-4">
         <button type="button" class="cursor-pointer" @click="$router.back()">&lt; Back</button>
       </div>
-      <nuxt-img class="absolute top-0 left-0 bottom-0 right-0 opacity-20 w-full h-screen object-cover -z-10" width="3840" height="2160" src="/img/amber/Explosive_Puppet_Hold_Preview.gif" loading="lazy" />
+      <img class="absolute top-0 left-0 bottom-0 right-0 opacity-20 w-full h-screen object-cover -z-10" width="3840" height="2160" src="/img/amber/Explosive_Puppet_Hold_Preview.gif" loading="lazy" />
       <nuxt-img class="inline-block absolute top-0 right-8 h-screen object-cover object-top" width="800" height="1200" :modifiers="{ position: 'top' }" :src="charData.portrait" loading="lazy" />
       <div class="absolute bottom-0 p-8 pt-32 w-full bg-gradient-to-t from-gray-900 via-gray-900 via-40% to-transparent">
         <h1 class="text-4xl mb-4">{{charData.name}} <nuxt-img v-for="n in charData.rarity" :key="`rarity${n}`" :alt="`rarity star icon`" src="/img/icons/round-star.svg" width="40" height="40" placeholder class="inline" loading="lazy"/></h1>
