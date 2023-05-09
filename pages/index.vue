@@ -134,7 +134,6 @@ const refreshChars = async function() {
       let filterElement = filters.value.element?.$in?.includes(x.element) ?? true
       let filterWeapon = filters.value.weapon?.$in?.includes(x.weapon) ?? true
       let filterRarity = filters.value.rarity?.$in?.includes(x.rarity) ?? true
-      console.log(filterName, filterElement, filterWeapon, filterRarity)
       return filterName && filterElement && filterWeapon && filterRarity
     })
   }

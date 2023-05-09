@@ -50,7 +50,7 @@
             :alt="`${charData.name} portrait`"
             v-if="expand && !isExpanding"
             class="absolute object-cover object-top opacity-5 right-0 bottom-0 -z-50"
-            :modifiers="{ position: 'top', sharpen: 2 }"
+            :modifiers="{ position: 'top', sharpen: 2, fit: 'fill' }"
             width="800" :height="height()"  :src="charData.portrait"
             loading="lazy" />
         </Transition>
