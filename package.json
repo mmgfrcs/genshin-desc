@@ -41,6 +41,12 @@
   },
   "commit-and-tag-version": {
     "header": "Genshin Descriptor Changelog",
+    "bumpFiles": [
+      {
+        "filename": "content/version.json",
+        "type": "json"
+      }
+    ],
     "types": [
       {
         "type": "feat",
@@ -56,7 +62,7 @@
       },
       {
         "type": "docs",
-        "hidden": true
+        "hidden": "Documentation"
       },
       {
         "type": "style",
